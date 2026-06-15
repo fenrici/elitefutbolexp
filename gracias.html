@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="thanks_page_title">Elite Futbol Experience | Gracias por tu Solicitud</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .thanks-section {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 120px 20px 80px;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.02), rgba(0,0,0,0.05));
+        }
+        
+        .thanks-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .check-icon {
+            font-size: 80px;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+        
+        .thanks-heading {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .thanks-message {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #555;
+        }
+        
+        .return-home {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-language-wrapper">
+                <div class="logo">
+                    <h1><span>Elite</span> Futbol</h1>
+                </div>
+                <div class="language-selector">
+                    <a href="#" class="language-option active" data-lang="es">
+                        <img src="images/bandera-espana.webp" alt="Español" class="flag-icon">
+                        <span>ES</span>
+                    </a>
+                    <a href="#" class="language-option" data-lang="en">
+                        <img src="images/bandera-usa.webp" alt="English" class="flag-icon">
+                        <span>EN</span>
+                    </a>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html#home" data-i18n="nav_home">Inicio</a></li>
+                    <li><a href="index.html#programs" data-i18n="nav_programs">Programas</a></li>
+                    <li><a href="index.html#about" data-i18n="nav_about">Nosotros</a></li>
+                    <li><a href="index.html#testimonials" data-i18n="nav_testimonials">Jugadores</a></li>
+                    <li><a href="index.html#facilities" data-i18n="nav_facilities">Instalaciones</a></li>
+                    <li><a href="index.html#contact" class="cta-button" data-i18n="nav_contact">Solicitar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="thanks-section">
+        <div class="thanks-container">
+            <i class="fas fa-check-circle check-icon"></i>
+            <h1 class="thanks-heading" data-i18n="thanks_heading">¡Gracias por tu Solicitud!</h1>
+            <p class="thanks-message" data-i18n="thanks_message">Hemos recibido tu solicitud correctamente. Nuestro equipo la revisará y se pondrá en contacto contigo en un plazo de 48 horas para los próximos pasos. Mientras tanto, puedes revisar más información sobre nuestros programas en nuestra web.</p>
+            <p class="thanks-message" data-i18n="thanks_email_notice">También recibirás un correo de confirmación en la dirección proporcionada.</p>
+            <div class="return-home">
+                <a href="index.html" class="btn btn-primary" data-i18n="return_home">Volver a la Página Principal</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><span>Elite</span> Futbol <span>Experience</span></h3>
+                    <p data-i18n="footer_tagline">Programas de Entrenamiento Profesional de Fútbol en CD Leganés</p>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 data-i18n="footer_quick_links">Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html#home" data-i18n="footer_link_home">Inicio</a></li>
+                        <li><a href="index.html#programs" data-i18n="footer_link_programs">Programas</a></li>
+                        <li><a href="index.html#about" data-i18n="footer_link_about">Nosotros</a></li>
+                        <li><a href="index.html#testimonials" data-i18n="footer_link_testimonials">Jugadores</a></li>
+                        <li><a href="index.html#facilities" data-i18n="footer_link_facilities">Instalaciones</a></li>
+                        <li><a href="index.html#contact" data-i18n="footer_link_contact">Solicitar Ahora</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 data-i18n="footer_contact_title">Contáctanos</h4>
+                    <p><i class="fas fa-envelope"></i> info@elitefutbolexperience.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (786) 694-1287<br>+34 608 56 44 86<br>+1 (561) 829-7422</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="footer_address">Estadio Municipal de Butarque, Leganés, Madrid, España</span></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">&copy; 2026 Elite Futbol Experience. Todos los derechos reservados.</p>
+                <ul>
+                    <li><a href="#" data-i18n="footer_privacy">Política de Privacidad</a></li>
+                    <li><a href="#" data-i18n="footer_terms">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts - Orden importante -->
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+    <script src="language-selector.js"></script>
+</body>
+</html> 

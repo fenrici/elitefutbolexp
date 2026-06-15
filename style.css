@@ -1,0 +1,25 @@
+/* Estilos para el selector de idiomas */
+.language-selector {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 0 15px;
+}
+
+.lang-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px;
+    transition: color 0.2s ease;
+}
+
+.lang-link:hover {
+    color: #0066cc;
+}
+
+.lang-link.active {
+    color: #0066cc;
+    font-weight: 700;
+} 

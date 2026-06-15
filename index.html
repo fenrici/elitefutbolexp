@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page_title">Elite Futbol Experience | Entrenamiento Profesional de Fútbol en CD Leganés</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-language-wrapper">
+                <div class="logo">
+                    <h1><span>Elite</span> Futbol <span>Experience</span></h1>
+                </div>
+                <div class="language-selector">
+                    <a href="#" class="language-option active" data-lang="es">
+                        <img src="images/bandera-espana.webp" alt="Español" class="flag-icon">
+                        <span>ES</span>
+                    </a>
+                    <a href="#" class="language-option" data-lang="en">
+                        <img src="images/bandera-usa.webp" alt="English" class="flag-icon">
+                        <span>EN</span>
+                    </a>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home" class="active" data-i18n="nav_home">Inicio</a></li>
+                    <!-- <li><a href="#tryout-camp" data-i18n="nav_camp">Camp</a></li> -->
+                    <li><a href="#programs" data-i18n="nav_programs">Programas</a></li>
+                    <li><a href="#about" data-i18n="nav_about">Nosotros</a></li>
+                    <li><a href="#testimonials" data-i18n="nav_testimonials">Jugadores</a></li>
+                    <li><a href="#facilities" data-i18n="nav_facilities">Instalaciones</a></li>
+                    <li><a href="#contact" class="cta-button" data-i18n="nav_contact">Solicitar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2 data-i18n="hero_title">Tu Camino al Fútbol Profesional Comienza Aquí</h2>
+                <p data-i18n="hero_subtitle">Programas de entrenamiento de élite en CD Leganés en Madrid, España</p>
+                <a href="#contact" class="btn hero-cta-meeting" data-i18n="hero_cta_meeting">Solicitar reunión</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar: club logos -->
+    <section class="club-trust-bar" aria-label="Working with professional clubs">
+        <div class="container">
+            <p class="club-trust-bar-title" data-i18n="trust_bar_title">Working with professional clubs in Spain</p>
+            <div class="club-trust-bar-logos">
+                <img src="images/CD_Leganés-logo.png" alt="CD Leganés" width="80" height="80">
+            </div>
+        </div>
+    </section>
+
+    <!-- Nuestro trabajo - premium layout -->
+    <section id="que-hacemos" class="work">
+        <div class="work__container">
+            <div class="work__grid">
+                <div class="work__left">
+                    <span class="work__eyebrow" data-i18n="whatwe_eyebrow">Elite Futbol Experience</span>
+                    <h2 class="work__title" data-i18n="whatwe_title">Nuestro trabajo</h2>
+                    <p class="work__lead" data-i18n="whatwe_subtitle">Conectamos jugadores internacionales con entornos de fútbol profesional en España, en colaboración con el <strong>CD Leganés</strong>.</p>
+
+                    <div class="work__text">
+                        <p data-i18n="whatwe_para1">Los jugadores entrenan, compiten y viven la dinámica de un club profesional, desarrollando su nivel y mostrando su rendimiento en un contexto europeo.</p>
+                        <p data-i18n="whatwe_para2">Al finalizar la experiencia, ofrecemos una evaluación y una orientación clara sobre los próximos pasos en su desarrollo deportivo.</p>
+                    </div>
+
+                    <div class="work__process-band" aria-labelledby="work-process-heading">
+                        <p class="work__process-lead" id="work-process-heading" data-i18n="whatwe_process_lead">Te indicaremos los pasos que seguiremos.</p>
+                        <ol class="work__process-steps">
+                            <li class="work__process-step">
+                                <span class="work__process-icon" aria-hidden="true"><i class="fas fa-clipboard-check"></i></span>
+                                <span class="work__process-label" data-i18n="whatwe_process_step1">Evaluación inicial</span>
+                            </li>
+                            <li class="work__process-step">
+                                <span class="work__process-icon" aria-hidden="true"><i class="fas fa-user-edit"></i></span>
+                                <span class="work__process-label" data-i18n="whatwe_process_step2">Solicitud con tus datos</span>
+                            </li>
+                            <li class="work__process-step">
+                                <span class="work__process-icon" aria-hidden="true"><i class="fas fa-search"></i></span>
+                                <span class="work__process-label" data-i18n="whatwe_process_step3">Revisión por el equipo</span>
+                            </li>
+                            <li class="work__process-step">
+                                <span class="work__process-icon" aria-hidden="true"><i class="fas fa-comments"></i></span>
+                                <span class="work__process-label" data-i18n="whatwe_process_step4">Videollamada y siguiente paso</span>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <aside class="work__right">
+                    <div class="work__media">
+                        <img src="images/foto-facha-caminando.JPG" alt="Entrenamiento en entorno profesional en España" loading="lazy">
+                        <div class="work__overlay" aria-hidden="true"></div>
+                    </div>
+
+                    <ul class="work__features">
+                        <li><span class="work__check" aria-hidden="true">✓</span><span data-i18n="whatwe_bullet2">Metodología europea y entrenadores con licencia UEFA</span></li>
+                        <li><span class="work__check" aria-hidden="true">✓</span><span data-i18n="whatwe_bullet3">Partidos competitivos + evaluación de rendimiento</span></li>
+                        <li><span class="work__check" aria-hidden="true">✓</span><span data-i18n="whatwe_bullet4">Orientación clara para próximos pasos (programas y pathway)</span></li>
+                    </ul>
+
+                    <div class="work__cta">
+                        <a href="#programs" class="btn btn--primary" data-i18n="whatwe_cta_programs">Ver programas</a>
+                        <a href="#about" class="btn btn--ghost" data-i18n="whatwe_cta_meeting">Conócenos</a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- CD Leganés Tryout International Camp -->
+    <!--
+    <section id="tryout-camp" class="tryout-camp">
+        <div class="tryout-camp-bg"></div>
+        <div class="container tryout-camp-inner">
+            <div class="tryout-top-crest">
+                <img src="images/CD_Leganés-logo.png" alt="CD Leganés">
+            </div>
+            <h2 class="tryout-title" data-i18n="tryout_title">CD Leganés Tryout International Camp</h2>
+            <p class="tryout-location" data-i18n="tryout_location">Miami, Florida</p>
+            <p class="tryout-date" data-i18n="tryout_date">June 2026</p>
+            <p class="tryout-tagline" data-i18n="tryout_tagline">Show your level. The best earn their opportunity in Spain.</p>
+            <div class="tryout-highlight">
+                <div class="tryout-highlight-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <div class="tryout-highlight-text-wrap">
+                    <p class="tryout-highlight-title" data-i18n="tryout_highlight_title">Top 3 Players Selected Will Travel to Spain</p>
+                    <p class="tryout-highlight-desc" data-i18n="tryout_highlight_desc">All expenses paid to train and showcase their talent inside CD Leganés, in a professional club environment.</p>
+                </div>
+            </div>
+            <ul class="tryout-benefits">
+                <li><i class="fas fa-check-circle"></i> <span data-i18n="tryout_benefit1">Official evaluation by CD Leganés technical staff</span></li>
+                <li><i class="fas fa-check-circle"></i> <span data-i18n="tryout_benefit2">Professional-level training sessions and competitive matches</span></li>
+                <li><i class="fas fa-check-circle"></i> <span data-i18n="tryout_benefit4">Performance-based selection with direct access to Spain</span></li>
+                <li><i class="fas fa-check-circle"></i> <span data-i18n="tryout_benefit_kit">CD Leganés training kit</span></li>
+            </ul>
+            <p class="tryout-age" data-i18n="tryout_age">For players aged 8–20.</p>
+
+            <div class="tryout-grid">
+                <div class="tryout-block tryout-about">
+                    <h3 class="tryout-block-title" data-i18n="tryout_what_title">What is the CD Leganés Tryout International Camp?</h3>
+                    <p data-i18n="tryout_what_p1">The camp will take place in Miami, Florida: high-level training combined with an official tryout and scouting process. Players train, compete, and are evaluated under professional standards.</p>
+                    <p data-i18n="tryout_duration">1 week: Monday to Friday. Saturday: friendly match prior to player selection.</p>
+                    <p class="tryout-about-punch" data-i18n="tryout_what_punch">This is not just a camp. It is a real opportunity to be selected.</p>
+                </div>
+                <div class="tryout-block tryout-spain">
+                    <h3 class="tryout-block-title"><span data-i18n="tryout_spain_title">The Spain Experience</span></h3>
+                    <p class="tryout-spain-intro" data-i18n="tryout_spain_intro">The Top 3 players will be chosen strictly based on performance and will experience 2 weeks at the club. They receive:</p>
+                    <ul class="tryout-spain-list">
+                        <li><i class="fas fa-plane"></i> <span data-i18n="tryout_spain_1">All-expenses-paid trip to Spain</span></li>
+                        <li><i class="fas fa-star"></i> <span data-i18n="tryout_spain_3">Full premium residency: full accommodation</span></li>
+                        <li><i class="fas fa-futbol"></i> <span data-i18n="tryout_spain_2">Training and evaluation inside CD Leganés</span></li>
+                        <li><i class="fas fa-clipboard-check"></i> <span data-i18n="tryout_spain_4">Direct feedback from the club's technical staff</span></li>
+                    </ul>
+                    <p class="tryout-merit" data-i18n="tryout_merit">Selection is 100% merit-based.</p>
+                </div>
+            </div>
+
+            <div class="tryout-block tryout-who">
+                <h3 class="tryout-block-title" data-i18n="tryout_who_title">Who Can Apply?</h3>
+                <ul class="tryout-who-list">
+                    <li><i class="fas fa-check"></i> <span data-i18n="tryout_who_1">Competitive youth players seeking international exposure</span></li>
+                    <li><i class="fas fa-check"></i> <span data-i18n="tryout_who_2">Players motivated to prove themselves at a professional level</span></li>
+                    <li><i class="fas fa-check"></i> <span data-i18n="tryout_who_3">Athletes ready to compete, not just participate</span></li>
+                </ul>
+            </div>
+
+            <div class="tryout-meta">
+                <p class="tryout-price">
+                    <span data-i18n="tryout_price_label">Registration:</span>
+                    <span class="tryout-price-original">$900</span>
+                    <span class="tryout-price-early" data-i18n="tryout_early_label">Early registration:</span>
+                    <strong class="tryout-price-amount">$700</strong>
+                </p>
+                <p class="tryout-deposit" data-i18n="tryout_deposit">Secure your spot with a $150 non-refundable deposit.</p>
+            </div>
+
+            <p class="tryout-urgency" data-i18n="tryout_urgency">Limited spots available. Registration will close once capacity is reached.</p>
+
+            <a href="#" id="open-camp-register" class="btn tryout-cta" data-i18n="tryout_cta">
+                <i class="fas fa-paper-plane"></i>
+                SECURE YOUR SPOT
+            </a>
+        </div>
+    </section>
+    -->
+
+    <section id="programs" class="programs">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="programs_title">Programas de Entrenamiento</h2>
+                <p data-i18n="programs_subtitle">Entrenamiento de fútbol profesional masculino y femenino inmersivo en uno de los clubes históricos de España</p>
+            </div>
+            
+            <!-- Short-Term Programs -->
+            <div class="programs-block">
+                <h3 class="programs-block-title" data-i18n="programs_short_term_title">Short-Term Programs (Up to 1 month)</h3>
+                <p class="programs-block-intro" data-i18n="programs_short_term_intro">Ideal for players who want a first professional experience in Spain, receive an evaluation, and understand the European training environment before committing long-term.</p>
+                <div class="program-cards">
+                <div class="program-card program-card--short">
+                    <div class="program-content">
+                        <h3 data-i18n="program_1week_title">Programa Master (1 Semana)</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1week_feature0">Alojamiento y 40 tickets para almuerzo/cena + 20 tickets para desayuno/merienda</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1week_feature1">5 días de sesiones de entrenamiento de élite</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1week_feature2">Entrenamiento profesional con staff del CD Leganés</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1week_feature3">Evaluación táctica y técnica</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1week_feature4">Plan de desarrollo personalizado</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1week_feature5">Kit de entrenamiento oficial del CD Leganés</span></li>
+                        </ul>
+                        <p class="price program-price-below">€2.200</p>
+                        <p class="note" data-i18n="program_note">* Aéreo no incluido</p>
+                        <p class="note" data-i18n="program_medical_note">* Cobertura médica a cargo del jugador</p>
+                        <a href="#contact" class="btn" data-i18n="program_apply_btn">Solicitar Ahora</a>
+                    </div>
+                </div>
+
+                <div class="program-card program-card--short featured">
+                    <div class="featured-tag" data-i18n="program_featured_tag">Más Popular</div>
+                    <div class="program-content">
+                        <h3 data-i18n="program_15days_title">Programa Pro (15 Días)</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_15days_feature0">Alojamiento y 40 tickets para almuerzo/cena + 20 tickets para desayuno/merienda</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_15days_feature1">10 días de sesiones intensivas de entrenamiento</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_15days_feature3">Evaluación completa de habilidades</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_15days_feature4">Plan de desarrollo personalizado</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_15days_feature5">Programa de fuerza y acondicionamiento</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_15days_feature6">Talleres de nutrición y recuperación</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_15days_feature7">Partidos de entrenamiento con equipos juveniles del CD Leganés</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_15days_feature9">Paquete completo de kit de entrenamiento del CD Leganés</span></li>
+                        </ul>
+                        <p class="price program-price-below">€3.400</p>
+                        <p class="note" data-i18n="program_note">* Aéreo no incluido</p>
+                        <p class="note" data-i18n="program_medical_note">* Cobertura médica a cargo del jugador</p>
+                        <a href="#contact" class="btn" data-i18n="program_apply_btn">Solicitar Ahora</a>
+                    </div>
+                </div>
+
+                <div class="program-card program-card--short">
+                    <div class="program-content">
+                        <h3 data-i18n="program_1month_title">Programa Élite (1 Mes)</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1month_feature0">Alojamiento y 40 tickets para almuerzo/cena + 20 tickets para desayuno/merienda</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1month_feature1">20 días de entrenamiento de nivel profesional</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1month_feature2">Integración con la estructura de entrenamiento del CD Leganés</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1month_feature4">Desarrollo técnico y táctico integral</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1month_feature5">Evaluación y programa de condición física profesional</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1month_feature6">Plan personalizado de nutrición y recuperación</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1month_feature8">Partidos competitivos con equipos de la academia</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1month_feature9">Asistencia de ojeadores en los partidos de entrenamiento</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1month_feature11">Posible recomendación a clubes/academias</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1month_feature12">Kit completo de entrenamiento y partido del CD Leganés</span></li>
+                        </ul>
+                        <p class="price program-price-below">€5.300</p>
+                        <p class="note" data-i18n="program_note">* Aéreo no incluido</p>
+                        <p class="note" data-i18n="program_medical_note">* Cobertura médica a cargo del jugador</p>
+                        <a href="#contact" class="btn" data-i18n="program_apply_btn">Solicitar Ahora</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- Long-Term Programs -->
+            <div class="programs-block programs-block--longterm">
+                <h3 class="programs-block-title" data-i18n="programs_long_term_title">Long-Term Development Programs (2 months – 1 year)</h3>
+                <p class="programs-block-intro" data-i18n="programs_long_term_intro">Designed for players seeking consistent development within a structured European routine, with deeper coaching, competition exposure, and long-term progression support.</p>
+                <div class="program-cards program-cards--longterm">
+                <div class="program-card">
+                    <div class="program-content">
+                        <h3 data-i18n="program_2months_title">Programa Avanzado (2 Meses)</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature0">Alojamiento y 40 tickets para almuerzo/cena + 20 tickets para desayuno/merienda</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature1">40 días de entrenamiento de nivel profesional</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature2">Integración con la estructura de entrenamiento del CD Leganés</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature4">Desarrollo técnico y táctico integral</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature5">Evaluación y programa de condición física profesional</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature6">Plan personalizado de nutrición y recuperación</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature7">Sesiones de coaching</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature8">Partidos competitivos con equipos de la academia</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature9">Asistencia de ojeadores en los partidos de entrenamiento</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature11">Posible recomendación a clubes/academias</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature12">Kit completo de entrenamiento y partido del CD Leganés</span></li>
+                        </ul>
+                        <p class="price program-price-below">€8.700</p>
+                        <p class="note" data-i18n="program_note">* Aéreo no incluido</p>
+                        <p class="note" data-i18n="program_medical_note">* Cobertura médica a cargo del jugador</p>
+                        <a href="#contact" class="btn" data-i18n="program_apply_btn">Solicitar Ahora</a>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-content">
+                        <h3 data-i18n="program_3months_title">Programa Superior (3 Meses)</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature0">Alojamiento y 40 tickets para almuerzo/cena + 20 tickets para desayuno/merienda</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature1">60 días de entrenamiento de nivel profesional</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature2">Integración con la estructura de entrenamiento del CD Leganés</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature4">Desarrollo técnico y táctico integral</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature5">Evaluación y programa de condición física profesional</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature6">Plan personalizado de nutrición y recuperación</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature7">Sesiones de coaching</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature8">Partidos competitivos con equipos de la academia</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature9">Asistencia de ojeadores en los partidos de entrenamiento</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature11">Posible recomendación a clubes/academias</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature12">Kit completo de entrenamiento y partido del CD Leganés</span></li>
+                        </ul>
+                        <p class="price program-price-below">€11.300</p>
+                        <p class="note" data-i18n="program_note">* Aéreo no incluido</p>
+                        <p class="note" data-i18n="program_medical_note">* Cobertura médica a cargo del jugador</p>
+                        <a href="#contact" class="btn" data-i18n="program_apply_btn">Solicitar Ahora</a>
+                    </div>
+                </div>
+
+                <div class="program-cards__logo-cell">
+                    <div class="programs-logo">
+                        <img src="images/logoefs-sinfondo.png" alt="Elite Futbol Experience Logo">
+                    </div>
+                </div>
+
+                <div class="program-card program-card--tall">
+                    <div class="program-content">
+                        <h3 data-i18n="program_1year_title">Programa Premium – 1 Año en Madrid</h3>
+                        <p class="program-description" data-i18n="program_1year_description">Para jugadores que buscan dar el salto al fútbol profesional europeo. Este programa está diseñado para integrar al jugador a la estructura oficial del CD Leganés durante toda una temporada.</p>
+                        
+                        <ul>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1year_feature0">Incorporación oficial a la estructura del CD Leganés</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1year_feature1">Alojamiento y 40 tickets para almuerzo/cena + 20 tickets para desayuno/merienda</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1year_feature2">Entrenamientos diarios con el club bajo metodología profesional</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1year_feature3">Participación en competencias oficiales con el equipo</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1year_feature4">Seguimiento técnico-táctico personalizado</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1year_feature5">Evaluaciones físicas periódicas y planificación individual</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1year_feature6">Plan nutricional y de recuperación adaptado a cada etapa</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1year_feature8">Sesiones de coaching y preparación mental</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1year_feature9">Kit completo de entrenamiento y competición del CD Leganés</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1year_feature10">Acceso a gimnasio, instalaciones y cuerpo técnico del club</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1year_feature12">Oportunidad real de proyección internacional</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="program_1year_feature13">Contacto directo con clubes europeos</span></li>
+                        </ul>
+                        <p class="price program-price-below" data-i18n="program_1year_price">€25.500</p>
+                        
+                        <div class="educational-requirements">
+                            <h4 data-i18n="program_1year_requirements_title">Requisitos Educativos</h4>
+                            <div class="requirements-list">
+                                <p><i class="fas fa-graduation-cap"></i> <span data-i18n="program_1year_requirements_minors">Para menores en edad escolar: modalidad online en su país de origen, ajenos al programa</span></p>
+                                <p><i class="fas fa-university"></i> <span data-i18n="program_1year_requirements_adults">Para mayores con educación secundaria completada: Acceso a grados y cursos en universidades europeas asociadas</span></p>
+                            </div>
+                        </div>
+                        
+                        <div class="educational-requirements">
+                            <h4 data-i18n="program_1year_documentation_title">Requisitos de Documentación</h4>
+                            <div class="requirements-list">
+                                <p><i class="fas fa-passport"></i> <span data-i18n="program_1year_requirements_passport">Requisito indispensable: Pasaporte o ciudadanía europea vigente</span></p>
+                            </div>
+                        </div>
+                        
+                        <p class="note" data-i18n="program_1year_note">* La gestión del visado no está incluida en el precio</p>
+                        <p class="note" data-i18n="program_1year_note_airfare">* Aéreo no incluido</p>
+                        <p class="note" data-i18n="program_medical_note">* Cobertura médica a cargo del jugador</p>
+                        <a href="#contact" class="btn" data-i18n="program_apply_btn">Solicitar Ahora</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-us" class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="why_us_title">Por Qué Elegir Elite Futbol Experience</h2>
+                <p data-i18n="why_us_subtitle">Tu puerta de entrada al fútbol profesional en Europa</p>
+            </div>
+            
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 data-i18n="feature1_title">Entorno de Club Profesional</h3>
+                    <p data-i18n="feature1_text">Entrena en el CD Leganés, club con rica historia en el fútbol español e instalaciones profesionales.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 data-i18n="feature2_title">Entrenamiento de Élite</h3>
+                    <p data-i18n="feature2_text">Aprende de entrenadores con licencia UEFA que han desarrollado jugadores profesionales y entienden lo que se necesita para triunfar.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 data-i18n="feature3_title">Oportunidad de Exposición</h3>
+                    <p data-i18n="feature3_text">Muestra tu talento frente a ojeadores profesionales con posibles caminos hacia pruebas y contratos.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-i18n="feature4_title">Desarrollo Basado en Datos</h3>
+                    <p data-i18n="feature4_text">Recibe análisis detallados de rendimiento y evaluaciones físicas para seguir tu mejora.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content" style="display: block; text-align: center;">
+                <div class="about-text" style="text-align: left; max-width: 900px; margin: 0 auto 40px;">
+                    <div class="section-header left-align">
+                        <h2 data-i18n="about_title">Quienes Somos</h2>
+                        <p data-i18n="about_subtitle">Creando experiencias deportivas únicas para jóvenes futbolistas</p>
+                    </div>
+                    <p data-i18n="about_p1">Somos una empresa con sede en Madrid dedicada a crear experiencias deportivas únicas para jóvenes futbolistas de todo el mundo. Nuestro objetivo es formar, inspirar y proyectar a chicos y chicas apasionados por el fútbol, brindándoles oportunidades de crecimiento dentro y fuera del campo.</p>
+                    <p data-i18n="about_p2">Con una trayectoria marcada por la excelencia, contamos con años de experiencia trabajando con deportistas internacionales. Hemos recibido jóvenes de Estados Unidos, América del Sur y Oriente, promoviendo un entorno multicultural que enriquece lo deportivo y lo humano.</p>
+                    <p data-i18n="about_p3">Diseñamos experiencias integrales donde el entrenamiento de alto rendimiento se combina con la formación personal y la inmersión cultural, con un equipo de profesionales con destacada trayectoria internacional.</p>
+                    <p data-i18n="about_p5">Germán Enrici, Director de Relaciones Internacionales, es el nexo entre los diferentes países y culturas que se unen en nuestros proyectos, asegurando una comunicación cercana y una experiencia global de calidad.</p>
+                    <p data-i18n="about_p6">Creemos en el poder del deporte para transformar vidas. Trabajamos con dedicación y profesionalismo, construyendo puentes entre talentos jóvenes y el mundo profesional.</p>
+                    <div style="text-align: center; margin-top: 30px;">
+                        <a href="#facilities" class="btn" data-i18n="about_facilities_btn">Conoce Nuestras Instalaciones</a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/IMG_7275 (2).JPG" alt="Equipo Elite Futbol Experience">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials testimonials--journey">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="testimonials_title">Jugadores que ya iniciaron su camino</h2>
+                <p data-i18n="testimonials_subtitle">Una mirada a su etapa con nosotros en el CD Leganés, con confianza en cada parte del proceso.</p>
+            </div>
+
+            <div class="journey-carousel" data-journey-carousel aria-roledescription="carousel">
+                <button type="button" class="journey-carousel__btn journey-carousel__btn--prev" aria-label="Imagen anterior" data-journey-prev>
+                    <i class="fas fa-chevron-left" aria-hidden="true"></i>
+                </button>
+                <div class="journey-carousel__viewport" data-journey-viewport>
+                    <div class="journey-carousel__track" data-journey-track>
+                        <figure class="journey-carousel__slide" aria-hidden="false">
+                            <img src="images/foto-donario.JPG" alt="Jugador con equipo en instalaciones de entrenamiento CD Leganés" loading="eager" width="900" height="1200" decoding="async" fetchpriority="high">
+                        </figure>
+                        <figure class="journey-carousel__slide" aria-hidden="true">
+                            <img src="images/WhatsApp%20Image%202026-01-23%20at%2012.51.33.jpeg" alt="Jugador con equipo en instalaciones de entrenamiento CD Leganés" loading="lazy" width="900" height="1200" decoding="async">
+                        </figure>
+                        <figure class="journey-carousel__slide" aria-hidden="true">
+                            <img src="images/foto-chico.JPG" alt="Jugador con equipo en instalaciones de entrenamiento CD Leganés" loading="lazy" width="900" height="1200" decoding="async">
+                        </figure>
+                        <figure class="journey-carousel__slide" aria-hidden="true">
+                            <img src="images/foto-carreno.JPG" alt="Jugador con equipo en instalaciones de entrenamiento CD Leganés" loading="lazy" width="900" height="1200" decoding="async">
+                        </figure>
+                        <figure class="journey-carousel__slide" aria-hidden="true">
+                            <img src="images/foto-uruguayo.JPG" alt="Jugador con equipo en instalaciones de entrenamiento CD Leganés" loading="lazy" width="900" height="1200" decoding="async">
+                        </figure>
+                        <figure class="journey-carousel__slide" aria-hidden="true">
+                            <img src="images/foto-cancha-chicos.JPG" alt="Jugadores en cancha con el equipo, CD Leganés" loading="lazy" width="900" height="1200" decoding="async">
+                        </figure>
+                        <figure class="journey-carousel__slide" aria-hidden="true">
+                            <img src="images/foto-chinito.JPG" alt="Joven jugador y mentor, Elite Futbol Experience" loading="lazy" width="900" height="1200" decoding="async">
+                        </figure>
+                        <figure class="journey-carousel__slide" aria-hidden="true">
+                            <img src="images/ger-fer-cancha.JPG" alt="Jugadores y equipo en cancha, CD Leganés" loading="lazy" width="900" height="1200" decoding="async">
+                        </figure>
+                    </div>
+                </div>
+                <button type="button" class="journey-carousel__btn journey-carousel__btn--next" aria-label="Imagen siguiente" data-journey-next>
+                    <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                </button>
+                <div class="journey-carousel__dots" data-journey-dots role="tablist" aria-label="Elegir imagen"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="facilities_title">Instalaciones de Entrenamiento</h2>
+                <p data-i18n="facilities_subtitle">Entorno de clase mundial para un desarrollo óptimo</p>
+            </div>
+            
+            <div class="facility-gallery">
+                <div class="facility-image">
+                    <img src="images/estadio-cd-leganes.jpg" alt="Estadio Principal">
+                    <div class="facility-caption" data-i18n="facility1_caption">Estadio Municipal de Butarque</div>
+                </div>
+                <div class="facility-image">
+                    <img src="images/campo-entrenamiento.jpg" alt="Campo de Entrenamiento">
+                    <div class="facility-caption" data-i18n="facility2_caption">Campos de Entrenamiento Profesionales</div>
+                </div>
+                <div class="facility-image">
+                    <img src="images/gimnasio-cd-leganes.jpeg" alt="Instalaciones de Gimnasio">
+                    <div class="facility-caption" data-i18n="facility3_caption">Gimnasio de Última Generación</div>
+                </div>
+                <div class="facility-image">
+                    <img src="images/area-recreacional.jpg" alt="Área Recreacional">
+                    <div class="facility-caption" data-i18n="facility4_caption">Área Recreacional</div>
+                </div>
+                <div class="facility-image">
+                    <img src="images/sala-de-analisis.jpg" alt="Sala de Análisis">
+                    <div class="facility-caption" data-i18n="facility5_caption">Sala de Análisis de Video</div>
+                </div>
+                <div class="facility-image">
+                    <img src="images/room-cd-leganes.jpg" alt="Alojamiento para Jugadores">
+                    <div class="facility-caption" data-i18n="facility6_caption">Alojamiento para Jugadores</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="faq_title">Preguntas Frecuentes</h2>
+                <p data-i18n="faq_subtitle">Resolvemos tus dudas antes de dar el primer paso</p>
+            </div>
+
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq_q1">¿Qué nivel se necesita para participar?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a1">No exigimos un nivel mínimo certificado, pero los programas están diseñados para jugadores competitivos que entrenan regularmente y buscan dar un salto en su desarrollo. Durante la evaluación inicial determinamos el programa más adecuado.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq_q2">¿El vuelo está incluido en el precio?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a2">No, el aéreo no está incluido. Todos los programas incluyen alojamiento y comidas en España. El jugador o su familia gestionan el vuelo de forma independiente.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq_q3">¿Se necesita visa para viajar a España?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a3">Depende del país de origen. Ciudadanos de la UE y de muchos países de Latinoamérica pueden ingresar como turistas hasta 90 días. Para el programa de 1 año se requiere pasaporte o ciudadanía europea. Te asesoramos en cada caso.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq_q4">¿Qué incluye el alojamiento?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a4">Los jugadores se alojan en residencias cercanas al club con habitaciones compartidas, zonas comunes y comidas incluidas (desayuno, almuerzo y cena). El entorno es seguro y supervisado.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq_q5">¿Cómo funciona el alojamiento según la edad?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a5">A partir de 16 años, los programas incluyen residencia completa (alojamiento y comidas) en las instalaciones del club. Para jugadores menores de 16 años, el alojamiento no está incluido: deben residir con su familia o tutor legal, que se encarga de su hospedaje durante la estancia.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq_q6">¿Qué rango de edad aplica para los programas?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a6">Los programas están dirigidos a jugadores de 16 a 23 años. Todos los menores de edad deben contar con autorización de sus padres o tutores legales.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq_q7">¿Qué pasa después del programa?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a7">Al finalizar, cada jugador recibe un informe profesional de evaluación con recomendaciones claras. Según su rendimiento, puede recibir una recomendación para continuar en un programa más largo, una prueba con un club o una orientación sobre sus próximos pasos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="contact_title">Solicita Tu Programa</h2>
+                <p data-i18n="contact_subtitle">Da el primer paso hacia tu carrera profesional</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <div class="contact-payment-first">
+                        <p class="contact-payment-first__step" data-i18n="contact_payment_step_label">Paso 1</p>
+                        <h3 class="contact-payment-first__title" data-i18n="contact_payment_first_title">Completa tu solicitud — primer paso del proceso</h3>
+                        <p class="contact-payment-first__lead" data-i18n="contact_payment_first_lead">Completa el formulario y el equipo evaluará tu perfil para contactarte con los siguientes pasos.</p>
+                        <div class="contact-payment-notice" role="note" aria-live="polite">
+                            <p class="contact-payment-notice__title" data-i18n="contact_payment_notice_title"><strong>Cómo continúas</strong></p>
+                            <p class="contact-payment-notice__text" data-i18n="contact_payment_notice_text">Al hacer clic se abrirá el formulario para completar tu <strong>solicitud con tus datos</strong>. Con esa información podremos contactarte.</p>
+                        </div>
+                        <a class="btn btn-lg contact-payment-first__cta" href="https://tally.so/r/RGBarQ" target="_blank" rel="noopener noreferrer" data-i18n="contact_pay_cta">Completar formulario</a>
+                        <p class="contact-payment-first__hint" data-i18n="contact_after_payment_hint">Se abrirá en una nueva pestaña.</p>
+                    </div>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4 data-i18n="contact_location_title">Ubicación</h4>
+                            <p data-i18n="contact_location_address">Estadio Municipal de Butarque<br>Calle Arquitectura, s/n<br>28914 Leganés, Madrid, España</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4 data-i18n="contact_email_title">Email</h4>
+                            <p>info@elitefutbolexperience.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4 data-i18n="contact_phone_title">Teléfono</h4>
+                            <p>+1 (786) 694-1287<br>+34 608 56 44 86<br>+1 (561) 829-7422</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="application-process" aria-label="Pasos del proceso de solicitud">
+                <h3 class="application-process__heading" data-i18n="application_process_title">Proceso de solicitud</h3>
+                <div class="application-process__track" role="list">
+                    <div class="application-process__step" role="listitem">
+                        <span class="application-process__num" aria-hidden="true">1</span>
+                        <p class="application-process__text" data-i18n="application_step1">Completar formulario</p>
+                    </div>
+                    <span class="application-process__arrow" aria-hidden="true"></span>
+                    <div class="application-process__step" role="listitem">
+                        <span class="application-process__num" aria-hidden="true">2</span>
+                        <p class="application-process__text" data-i18n="application_step2">Revisión del equipo</p>
+                    </div>
+                    <span class="application-process__arrow" aria-hidden="true"></span>
+                    <div class="application-process__step" role="listitem">
+                        <span class="application-process__num" aria-hidden="true">3</span>
+                        <p class="application-process__text" data-i18n="application_step3">Contacto</p>
+                    </div>
+                    <span class="application-process__arrow" aria-hidden="true"></span>
+                    <div class="application-process__step" role="listitem">
+                        <span class="application-process__num" aria-hidden="true">4</span>
+                        <p class="application-process__text" data-i18n="application_step4">Videollamada</p>
+                    </div>
+                    <span class="application-process__arrow" aria-hidden="true"></span>
+                    <div class="application-process__step" role="listitem">
+                        <span class="application-process__num" aria-hidden="true">5</span>
+                        <p class="application-process__text" data-i18n="application_step5">Siguiente paso</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2 data-i18n="cta_title">Tu Viaje al Fútbol Profesional Comienza Aquí</h2>
+            <p data-i18n="cta_subtitle">Plazas limitadas disponibles para cada sesión del programa</p>
+            <a href="#contact" class="btn btn-large" data-i18n="cta_btn">Solicitar Ahora</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><span>Elite</span> Futbol <span>Experience</span></h3>
+                    <p data-i18n="footer_tagline">Programas de Entrenamiento Profesional de Fútbol en CD Leganés</p>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 data-i18n="footer_quick_links">Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#home" data-i18n="footer_link_home">Inicio</a></li>
+                        <li><a href="#programs" data-i18n="footer_link_programs">Programas</a></li>
+                        <li><a href="#about" data-i18n="footer_link_about">Nosotros</a></li>
+                        <li><a href="#testimonials" data-i18n="footer_link_testimonials">Jugadores</a></li>
+                        <li><a href="#facilities" data-i18n="footer_link_facilities">Instalaciones</a></li>
+                        <li><a href="#contact" data-i18n="footer_link_contact">Solicitar Ahora</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-programs">
+                    <h4 data-i18n="footer_programs_title">Nuestros Programas</h4>
+                    <ul>
+                        <li><a href="#programs" data-i18n="footer_program_1week">Programa de 1 Semana</a></li>
+                        <li><a href="#programs" data-i18n="footer_program_15days">Programa de 15 Días</a></li>
+                        <li><a href="#programs" data-i18n="footer_program_1month">Programa de 1 Mes</a></li>
+                        <li><a href="#programs" data-i18n="footer_program_2months">Programa de 2 Meses</a></li>
+                        <li><a href="#programs" data-i18n="footer_program_3months">Programa de 3 Meses</a></li>
+                        <li><a href="#programs" data-i18n="footer_program_1year">Programa de 1 Año</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 data-i18n="footer_contact_title">Contáctanos</h4>
+                    <p><i class="fas fa-envelope"></i> info@elitefutbolexperience.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (786) 694-1287<br>+34 608 56 44 86<br>+1 (561) 829-7422</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="footer_address">Estadio Municipal de Butarque, Leganés, Madrid, España</span></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">&copy; 2026 Elite Futbol Experience. Todos los derechos reservados.</p>
+                <ul>
+                    <li><a href="#" data-i18n="footer_privacy">Política de Privacidad</a></li>
+                    <li><a href="#" data-i18n="footer_terms">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Camp Registration Modal -->
+    <!--
+    <div id="camp-modal" class="camp-modal" aria-hidden="true">
+        <div class="camp-modal-overlay" id="camp-modal-overlay"></div>
+        <div class="camp-modal-box">
+            <button type="button" class="camp-modal-close" id="camp-modal-close" aria-label="Cerrar">&times;</button>
+            <h2 class="camp-form-title">CD Leganés Official Tryout Camp – Miami 2026</h2>
+            <form id="camp-registration-form" action="https://formspree.io/f/xjgeyqbz" method="POST" class="camp-form">
+                <input type="hidden" name="_subject" value="Camp Registration – Miami 2026">
+                <input type="hidden" name="_next" value="camp-gracias.html">
+                <input type="text" name="_gotcha" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+
+                <fieldset class="camp-form-section">
+                    <legend>Section 1 — Player Information</legend>
+                    <div class="camp-form-grid">
+                        <div class="camp-form-group full">
+                            <label for="camp_player_name">Player Full Name *</label>
+                            <input type="text" id="camp_player_name" name="player_name" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_dob">Date of Birth *</label>
+                            <input type="date" id="camp_dob" name="dob" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_age">Age *</label>
+                            <input type="number" id="camp_age" name="age" min="8" max="20" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_nationality">Nationality *</label>
+                            <input type="text" id="camp_nationality" name="nationality" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_primary_position">Primary Position *</label>
+                            <select id="camp_primary_position" name="primary_position" required>
+                                <option value="">Select</option>
+                                <option value="GK">GK</option>
+                                <option value="CB">CB</option>
+                                <option value="LB">LB</option>
+                                <option value="RB">RB</option>
+                                <option value="CM">CM</option>
+                                <option value="CDM">CDM</option>
+                                <option value="CAM">CAM</option>
+                                <option value="LW">LW</option>
+                                <option value="RW">RW</option>
+                                <option value="ST">ST</option>
+                            </select>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_current_club">Current Club *</label>
+                            <input type="text" id="camp_current_club" name="current_club" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_jersey">Jersey Size *</label>
+                            <select id="camp_jersey" name="jersey_size" required>
+                                <option value="">Select</option>
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="camp-form-section">
+                    <legend>Section 2 — Parent / Legal Guardian Information</legend>
+                    <div class="camp-form-grid">
+                        <div class="camp-form-group full">
+                            <label for="camp_guardian_name">Parent / Guardian Full Name *</label>
+                            <input type="text" id="camp_guardian_name" name="guardian_name" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_guardian_email">Email Address *</label>
+                            <input type="email" id="camp_guardian_email" name="guardian_email" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_guardian_phone">Phone Number *</label>
+                            <input type="tel" id="camp_guardian_phone" name="guardian_phone" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_emergency_name">Emergency Contact Name *</label>
+                            <input type="text" id="camp_emergency_name" name="emergency_contact_name" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_emergency_phone">Emergency Contact Phone *</label>
+                            <input type="tel" id="camp_emergency_phone" name="emergency_contact_phone" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="camp-form-section">
+                    <legend>Section 3 — Medical &amp; Notes</legend>
+                    <div class="camp-form-grid">
+                        <div class="camp-form-group full">
+                            <label for="camp_medical">Medical Conditions / Allergies * <small>(write &quot;None&quot; if none)</small></label>
+                            <input type="text" id="camp_medical" name="medical_conditions" required placeholder="None">
+                        </div>
+                        <div class="camp-form-group full">
+                            <label for="camp_notes">Additional Notes (optional)</label>
+                            <textarea id="camp_notes" name="additional_notes" rows="3"></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="camp-form-section">
+                    <legend>Section 4 — Agreements</legend>
+                    <div class="camp-form-checkboxes">
+                        <label class="camp-checkbox-label">
+                            <input type="checkbox" name="agreement_risks" value="yes" required>
+                            <span>I understand that participation involves physical activity and assume responsibility for any risks involved.</span>
+                        </label>
+                        <label class="camp-checkbox-label">
+                            <input type="checkbox" name="agreement_media" value="yes" required>
+                            <span>I authorize Elite Futbol Experience and CD Leganés to use photos and videos taken during the event for promotional purposes.</span>
+                        </label>
+                        <label class="camp-checkbox-label">
+                            <input type="checkbox" name="agreement_deposit" value="yes" required>
+                            <span>I understand that the $150 deposit is non-refundable unless the event is canceled by the organization.</span>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <button type="submit" class="btn camp-form-submit">Submit Registration</button>
+            </form>
+        </div>
+    </div>
+    -->
+
+    <!-- Scripts - Orden importante -->
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+    <script src="language-selector.js"></script>
+    <script src="navbar-scroll.js"></script>
+    <script src="journey-carousel.js"></script>
+    
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <script>
+        // Scroll to Top functionality
+        const scrollToTopBtn = document.getElementById('scrollToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollToTopBtn.classList.add('visible');
+            } else {
+                scrollToTopBtn.classList.remove('visible');
+            }
+        });
+        
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const item = btn.parentElement;
+                const isOpen = item.classList.contains('faq-item--open');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('faq-item--open'));
+                if (!isOpen) item.classList.add('faq-item--open');
+                btn.setAttribute('aria-expanded', !isOpen);
+            });
+        });
+
+        /*
+        // Camp registration modal
+        const campModal = document.getElementById('camp-modal');
+        const openCampBtn = document.getElementById('open-camp-register');
+        const campModalOverlay = document.getElementById('camp-modal-overlay');
+        const campModalClose = document.getElementById('camp-modal-close');
+
+        function openCampModal(e) {
+            if (e) e.preventDefault();
+            document.querySelector('.main-nav')?.classList.remove('active');
+            if (campModal) {
+                campModal.classList.add('camp-modal-open');
+                campModal.setAttribute('aria-hidden', 'false');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+        function closeCampModal() {
+            if (campModal) {
+                campModal.classList.remove('camp-modal-open');
+                campModal.setAttribute('aria-hidden', 'true');
+                document.body.style.overflow = '';
+            }
+        }
+
+        if (openCampBtn) openCampBtn.addEventListener('click', openCampModal);
+        if (campModalOverlay) campModalOverlay.addEventListener('click', closeCampModal);
+        if (campModalClose) campModalClose.addEventListener('click', closeCampModal);
+        document.addEventListener('keydown', function(ev) {
+            if (ev.key === 'Escape' && campModal && campModal.classList.contains('camp-modal-open')) closeCampModal();
+        });
+        */
+    </script>
+</body>
+</html> 
