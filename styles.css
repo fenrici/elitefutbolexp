@@ -272,8 +272,9 @@ body > header.main-header .logo-language-wrapper {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     margin: 0;
-    color: rgba(255, 255, 255, 0.96);
+    color: #FFFFFF;
     white-space: nowrap;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
 }
 
 .logo h1 span {
@@ -300,7 +301,7 @@ body > header.main-header .logo-language-wrapper {
 .mobile-menu-toggle {
     display: none;
     font-size: 1.5rem;
-    color: rgba(255, 255, 255, 0.92);
+    color: #FFFFFF;
     cursor: pointer;
     z-index: 1001;
 }
@@ -320,11 +321,12 @@ nav ul li {
 
 nav ul li a {
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.9);
+    color: #FFFFFF;
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     position: relative;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
 nav ul li a:after {
@@ -372,7 +374,7 @@ nav ul li a.cta-button:after {
     padding: 4px 8px;
     margin-left: 8px;
     border-radius: 4px;
-    color: rgba(255, 255, 255, 0.92);
+    color: #FFFFFF;
     text-decoration: none;
     border: 1px solid transparent;
     transition: all 0.3s ease;
@@ -497,7 +499,8 @@ nav ul li a.cta-button:after {
         display: block;
         padding: 8px 0;
         font-size: 1.1rem;
-        color: rgba(255, 255, 255, 0.92);
+        color: #FFFFFF;
+        text-shadow: none;
     }
     
     .main-nav ul li a.active {
@@ -519,7 +522,7 @@ nav ul li a.cta-button:after {
     
     .main-nav ul li a.cta-button:hover {
         background-color: #f1c84b;
-        color: #081a35 !important;
+        color: #071428 !important;
     }
     
     /* Animación para el icono hamburguesa */
@@ -575,7 +578,7 @@ nav ul li a.cta-button:after {
     padding-top: 100px;
     width: 100%;
     box-sizing: border-box;
-    background: url('images/stadium-background-new.jpg') no-repeat center center/cover;
+    background: url('images/butarque-3_jpg.webp') no-repeat center center/cover;
 }
 
 .hero .overlay {
@@ -584,7 +587,11 @@ nav ul li a.cta-button:after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62));
+    background: linear-gradient(
+        rgba(4, 16, 31, 0.72) 0%,
+        rgba(4, 16, 31, 0.78) 45%,
+        rgba(4, 16, 31, 0.88) 100%
+    );
     z-index: 1;
 }
 
@@ -658,19 +665,40 @@ nav ul li a.cta-button:after {
 
 .hero-content h2 {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(2rem, 4.2vw, 3.5rem);
+    font-size: clamp(1.85rem, 3.2vw, 2.65rem);
     font-weight: 700;
-    letter-spacing: -0.02em;
-    margin-bottom: 20px;
-    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8), 0 2px 10px rgba(0, 0, 0, 0.6);
-    animation: fadeInDown 1s ease-out;
+    margin-bottom: 18px;
+    color: #FFFFFF;
+    letter-spacing: normal;
     line-height: 1.2;
+    text-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.55),
+        0 8px 28px rgba(0, 0, 0, 0.75);
+    animation: fadeInDown 1s ease-out;
+}
+
+.hero-content h2 .hero-title-accent {
+    color: var(--secondary-color);
+    text-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.45),
+        0 4px 18px rgba(228, 181, 40, 0.28);
+}
+
+.hero-content h2 .hero-title-sep {
+    color: rgba(228, 181, 40, 0.72);
+    font-weight: 500;
+    padding: 0 0.12em;
+    text-shadow: none;
 }
 
 .hero-content p {
     font-size: 1.4rem;
     margin-bottom: 40px;
-    text-shadow: 0 2px 15px rgba(0, 0, 0, 0.8), 0 1px 5px rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    opacity: 1;
+    text-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.5),
+        0 6px 20px rgba(0, 0, 0, 0.65);
     animation: fadeInUp 1s ease-out 0.2s both;
 }
 
@@ -773,7 +801,7 @@ nav ul li a.cta-button:after {
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: rgba(255, 255, 255, 0.78);
+    color: #FFFFFF;
     margin: 0 0 20px 0;
     text-align: center;
 }
@@ -1084,7 +1112,7 @@ nav ul li a.cta-button:after {
     transform: translateY(-2px);
     border-color: rgba(241, 200, 75, 0.95);
     background: #f1c84b;
-    color: #081a35;
+    color: #0b1f3b;
     box-shadow: 0 14px 30px rgba(228, 181, 40, 0.28);
 }
 
@@ -1861,7 +1889,7 @@ nav ul li a.cta-button:after {
 .programs .program-card .btn:hover {
     background: #f1c84b;
     border-color: rgba(241, 200, 75, 0.95);
-    color: #081a35;
+    color: #0b1f3b;
     box-shadow: 0 14px 30px rgba(228, 181, 40, 0.28);
 }
 
@@ -2636,8 +2664,8 @@ nav ul li a.cta-button:after {
 }
 
 .contact .btn:hover {
-    background: #f5c842;
-    border-color: #f5c842;
+    background: #f1c84b;
+    border-color: #f1c84b;
 }
 
 .contact .info-item {
@@ -3262,10 +3290,12 @@ footer ul li a:hover {
     }
     
     .hero-content h2 {
-        font-size: 2rem !important;
+        font-size: 1.85rem !important;
         padding: 0;
         width: 100%;
         margin-top: 15px;
+        letter-spacing: -0.01em;
+        line-height: 1.25;
     }
     
     .hero-content p {
@@ -3446,12 +3476,13 @@ footer ul li a:hover {
     }
     
     .hero-content h2 {
-        font-size: 1.8rem !important;
-        line-height: 1.2;
+        font-size: 1.7rem !important;
+        line-height: 1.25;
         margin-bottom: 20px;
         margin-top: 20px;
         padding: 0;
         width: 100%;
+        letter-spacing: -0.01em;
     }
     
     .hero-content p {
@@ -3744,37 +3775,32 @@ body > header.main-header .container {
     }
 }
 
-/* Long-term programs: logo en el espacio debajo de las 2 tarjetas cortas */
+/* Long-term programs: two equal cards, centered */
 .program-cards--longterm {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-        "card2m card3m card1y"
-        "logo   logo   card1y";
-    align-items: start;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px 24px;
+    max-width: 860px;
+    margin: 0 auto;
+    align-items: stretch;
 }
 
-.program-cards--longterm .program-card:nth-child(1) {
-    grid-area: card2m;
+.program-cards--longterm .program-card {
+    height: 100%;
 }
 
-.program-cards--longterm .program-card:nth-child(2) {
-    grid-area: card3m;
-}
-
-.program-cards--longterm .program-card--tall {
-    grid-area: card1y;
-    grid-row: 1 / -1;
-}
-
-.program-cards__logo-cell {
-    grid-area: logo;
+.program-card--long .program-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    min-height: 120px;
+    flex-direction: column;
+    height: 100%;
+}
+
+.program-card--long .program-content ul {
+    flex: 1 0 auto;
+}
+
+.program-card--long .program-content .btn {
+    margin-top: auto;
 }
 
 .programs-logo {
@@ -3783,23 +3809,24 @@ body > header.main-header .container {
     align-items: center;
 }
 
+.programs-logo--after {
+    margin-top: 36px;
+    padding: 8px 0 0;
+}
+
+.programs-logo--after .brand-wordmark {
+    color: #0b1f3b;
+    text-shadow: none;
+}
+
 @media (max-width: 768px) {
     .program-cards--longterm {
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto;
-        grid-template-areas:
-            "card2m"
-            "card3m"
-            "card1y"
-            "logo";
+        max-width: 480px;
     }
 
-    .program-cards--longterm .program-card--tall {
-        grid-row: auto;
-    }
-
-    .program-cards__logo-cell {
-        padding: 30px 20px;
+    .programs-logo--after {
+        margin-top: 28px;
     }
 }
 
@@ -3815,6 +3842,10 @@ body > header.main-header .container {
 
 .programs .programs-block:first-of-type .program-cards .program-card {
     height: 100% !important;
+}
+
+.programs .programs-block--longterm .program-cards {
+    align-items: stretch;
 }
 
 /* ========== Camp Registration Modal ========== */
@@ -4437,8 +4468,8 @@ a.footer-back-link:focus-visible {
 }
 
 .payment-step-modal__cta:hover {
-    background: #f5c842 !important;
-    border-color: #f5c842 !important;
+    background: #f1c84b !important;
+    border-color: #f1c84b !important;
     color: var(--dark-color) !important;
 }
 
