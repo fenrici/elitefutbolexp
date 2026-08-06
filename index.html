@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="page_title">Elite Futbol Experience | Entrenamiento Profesional de Fútbol en CD Leganés</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preload" as="image" href="images/butarque-3_jpg.webp" fetchpriority="high">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
@@ -46,14 +47,33 @@
     </header>
 
     <section id="home" class="hero">
-        <div class="overlay"></div>
+        <div class="hero__media" aria-hidden="true">
+            <img class="hero__img" src="images/butarque-3_jpg.webp" alt="" width="1038" height="598" fetchpriority="high" decoding="async">
+            <div class="hero__overlay"></div>
+            <div class="hero__grain"></div>
+        </div>
         <div class="container">
             <div class="hero-content">
-                <h2 data-i18n="hero_title">Entrena en <span class="hero-title-accent">Madrid</span> <span class="hero-title-sep" aria-hidden="true">·</span> Vive el <span class="hero-title-accent">fútbol</span> español</h2>
-                <p data-i18n="hero_subtitle">Programas de entrenamiento de élite en CD Leganés en Madrid, España</p>
-                <a href="#contact" class="btn hero-cta-meeting" data-i18n="hero_cta_meeting">Solicitar reunión</a>
+                <span class="hero-badge" style="--i:0">
+                    <img src="images/CD_Leganés-logo.png" alt="" class="hero-badge__crest" width="22" height="22" aria-hidden="true">
+                    <span data-i18n="hero_badge">En colaboración con el CD Leganés</span>
+                </span>
+                <h1 class="hero-title" data-i18n="hero_title" style="--i:1">Entrena en <span class="hero-title-accent">Madrid</span> <span class="hero-title-sep" aria-hidden="true">·</span> Vive el <span class="hero-title-accent">fútbol</span> español</h1>
+                <p class="hero-subtitle" data-i18n="hero_subtitle" style="--i:2">Programas de entrenamiento de élite en CD Leganés en Madrid, España</p>
+                <div class="hero-actions" style="--i:3">
+                    <a href="#contact" class="btn hero-cta-meeting" data-i18n="hero_cta_meeting">Solicitar reunión</a>
+                    <a href="#programs" class="btn hero-cta-secondary" data-i18n="hero_cta_programs">Ver programas</a>
+                </div>
+                <ul class="hero-chips" style="--i:4" aria-label="Puntos clave del programa">
+                    <li><i class="fas fa-shield-halved" aria-hidden="true"></i> <span data-i18n="hero_chip1">Club profesional de España</span></li>
+                    <li><i class="fas fa-certificate" aria-hidden="true"></i> <span data-i18n="hero_chip2">Entrenadores con licencia UEFA</span></li>
+                    <li><i class="fas fa-users" aria-hidden="true"></i> <span data-i18n="hero_chip3">Jugadores de 16 a 23 años</span></li>
+                </ul>
             </div>
         </div>
+        <a href="#que-hacemos" class="hero-scroll" aria-label="Desplázate hacia abajo">
+            <span class="hero-scroll__mouse" aria-hidden="true"></span>
+        </a>
     </section>
 
     <!-- Trust Bar: club logos -->
@@ -105,7 +125,7 @@
 
                 <aside class="work__right">
                     <div class="work__media">
-                        <img src="images/foto-facha-caminando.JPG" alt="Entrenamiento en entorno profesional en España" loading="lazy">
+                        <img src="images/IMG_8005.JPG" alt="Entrenamiento en entorno profesional en el CD Leganés" loading="lazy">
                         <div class="work__overlay" aria-hidden="true"></div>
                     </div>
 
@@ -392,7 +412,7 @@
                     </div>
                 </div>
                 <div class="about-image">
-                    <img src="images/IMG_7275 (2).JPG" alt="Equipo Elite Futbol Experience">
+                    <img src="images/22911fda-b96c-4120-84c7-ec5bf4bdeb2e.JPG" alt="Germán Enrici en las instalaciones del CD Leganés">
                 </div>
             </div>
         </div>
@@ -431,9 +451,6 @@
                         </figure>
                         <figure class="journey-carousel__slide" aria-hidden="true">
                             <img src="images/foto-chinito.JPG" alt="Joven jugador y mentor, Elite Futbol Experience" loading="lazy" width="900" height="1200" decoding="async">
-                        </figure>
-                        <figure class="journey-carousel__slide" aria-hidden="true">
-                            <img src="images/ger-fer-cancha.JPG" alt="Jugadores y equipo en cancha, CD Leganés" loading="lazy" width="900" height="1200" decoding="async">
                         </figure>
                     </div>
                 </div>

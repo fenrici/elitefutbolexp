@@ -21,7 +21,12 @@ const translations = {
         'hero_btn_explore': 'Explorar Programas',
         'hero_btn_apply': 'Solicitar Ahora',
         'hero_cta_meeting': 'Solicitar reunión',
+        'hero_cta_programs': 'Ver programas',
         'hero_scroll_indicator': 'Desliza',
+        'hero_badge': 'En colaboración con el CD Leganés',
+        'hero_chip1': 'Club profesional de España',
+        'hero_chip2': 'Entrenadores con licencia UEFA',
+        'hero_chip3': 'Jugadores de 16 a 23 años',
         
         // Trust Bar
         'trust_bar_title': 'Trabajando con clubes profesionales en España',
@@ -384,7 +389,12 @@ const translations = {
         'hero_btn_explore': 'Explore Programs',
         'hero_btn_apply': 'Apply Now',
         'hero_cta_meeting': 'Request a meeting',
+        'hero_cta_programs': 'View programs',
         'hero_scroll_indicator': 'Scroll Down',
+        'hero_badge': 'In collaboration with CD Leganés',
+        'hero_chip1': 'Professional club in Spain',
+        'hero_chip2': 'UEFA-licensed coaches',
+        'hero_chip3': 'Players aged 16 to 23',
         
         // Trust Bar
         'trust_bar_title': 'Working with professional clubs in Spain',
