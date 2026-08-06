@@ -69,7 +69,6 @@ const translations = {
         'program_1month_best_for': 'Ideal para integración en la estructura del club y exposición competitiva.',
         'program_2months_best_for': 'Ideal para desarrollo sostenido y exposición ante ojeadores.',
         'program_3months_best_for': 'Ideal para integración extendida y competición en academia.',
-        'program_1year_best_for': 'Ideal para integración de temporada completa y proyección profesional.',
         
         // Programas
         'programs_title': 'Programas de Entrenamiento',
@@ -151,32 +150,6 @@ const translations = {
         'program_3months_feature10': 'Informe profesional del cuerpo técnico del club',
         'program_3months_feature11': 'Posible proyección dependiendo del nivel del jugador',
         'program_3months_feature12': 'Kit completo de entrenamiento y partido del CD Leganés',
-        
-        // Programa 1 año
-        'program_premium_tag': '🇪🇸 Fichaje Oficial',
-        'program_1year_title': 'Programa Premium – 1 Año en Madrid',
-        'program_1year_price': '€25.500',
-        'program_1year_description': 'Para jugadores que buscan dar el salto al fútbol profesional europeo. El jugador será fichado oficialmente por el CD Leganés durante toda la temporada, formando parte activa de la estructura del club.',
-        'program_1year_requirements_title': 'Requisitos Educativos',
-        'program_1year_requirements_minors': 'Para menores en edad escolar: modalidad online en su país de origen, ajenos al programa',
-        'program_1year_requirements_adults': 'Para mayores con educación secundaria completada: Acceso a grados y cursos en universidades europeas asociadas',
-        'program_1year_documentation_title': 'Requisitos de Documentación',
-        'program_1year_requirements_passport': 'Requisito indispensable: Pasaporte o ciudadanía europea vigente',
-        'program_1year_feature0': 'Incorporación oficial a la estructura del CD Leganés',
-        'program_1year_feature1': 'Alojamiento y 40 tickets para almuerzo/cena + 20 tickets para desayuno/merienda',
-        'program_1year_feature2': 'Entrenamientos diarios con el club bajo metodología profesional',
-        'program_1year_feature3': 'Participación en competencias oficiales con el equipo',
-        'program_1year_feature4': 'Seguimiento técnico-táctico personalizado',
-        'program_1year_feature5': 'Evaluaciones físicas periódicas y planificación individual',
-        'program_1year_feature6': 'Plan nutricional y de recuperación adaptado a cada etapa',
-        'program_1year_feature8': 'Sesiones de coaching y preparación mental',
-        'program_1year_feature9': 'Kit completo de entrenamiento y competición del CD Leganés',
-        'program_1year_feature10': 'Acceso a gimnasio, instalaciones y cuerpo técnico del club',
-        'program_1year_feature11': 'Informe profesional trimestral de evolución',
-        'program_1year_feature12': 'Oportunidad real de proyección internacional',
-        'program_1year_feature13': 'Contacto directo con clubes europeos',
-        'program_1year_note': '* La gestión del visado no está incluida en el precio',
-        'program_1year_note_airfare': '* Aéreo no incluido',
         
         // Por qué elegirnos
         'why_us_title': 'Por Qué Elegir Elite Futbol Experience',
@@ -297,7 +270,6 @@ const translations = {
         'footer_program_1month': 'Programa de 1 Mes',
         'footer_program_2months': 'Programa de 2 Meses',
         'footer_program_3months': 'Programa de 3 Meses',
-        'footer_program_1year': 'Programa Premium',
         'footer_contact_title': 'Contáctanos',
         'footer_address': 'Estadio Municipal de Butarque, Leganés, Madrid, España',
         'footer_copyright': '© 2026 Elite Futbol Experience. Todos los derechos reservados.',
@@ -313,12 +285,11 @@ const translations = {
         
         // Opciones de programa
         'program_select': 'Elegir un programa',
-        'program_select_1week': '1 Semana - Programa Master (€2.200)',
-        'program_select_15days': '15 Días - Programa Pro (€3.400)',
-        'program_select_1month': '1 Mes - Programa Élite (€5.300)',
-        'program_select_2months': '2 Meses - Programa Avanzado (€8.700)',
-        'program_select_3months': '3 Meses - Programa Superior (€11.300)',
-        'program_select_1year': '1 Año - Programa Premium (€25.500)',
+        'program_select_1week': '1 Semana - Programa Master (€1.900)',
+        'program_select_15days': '15 Días - Programa Pro (€3.100)',
+        'program_select_1month': '1 Mes - Programa Élite (€4.800)',
+        'program_select_2months': '2 Meses - Programa Avanzado (€7.800)',
+        'program_select_3months': '3 Meses - Programa Superior (€10.200)',
         
         // Página de agradecimiento
         'thanks_page_title': 'Elite Futbol Experience | Gracias por tu Solicitud',
@@ -437,7 +408,6 @@ const translations = {
         'program_1month_best_for': 'Best for integration into club structure and competitive exposure.',
         'program_2months_best_for': 'Best for sustained development and scouting exposure.',
         'program_3months_best_for': 'Best for extended integration and academy competition.',
-        'program_1year_best_for': 'Best for full-season integration and professional pathway.',
         
         // Programs
         'programs_title': 'Training Programs',
@@ -519,32 +489,6 @@ const translations = {
         'program_3months_feature10': 'Professional report from the club coaching staff',
         'program_3months_feature11': 'Potential pathway depending on the player\'s level',
         'program_3months_feature12': 'Complete CD Leganés training and match kit',
-        
-        // 1 Year Program
-        'program_premium_tag': '🇪🇸 Official Signing',
-        'program_1year_title': 'Premium Program – 1 Year in Madrid',
-        'program_1year_price': '€25.500',
-        'program_1year_description': 'For players seeking to make the jump to European professional soccer. The player will be officially signed by CD Leganés for the entire season, becoming an active part of the club structure.',
-        'program_1year_requirements_title': 'Educational Requirements',
-        'program_1year_requirements_minors': 'For school-age minors: online schooling in their country of origin, independent of the program',
-        'program_1year_requirements_adults': 'For adults with completed secondary education: Access to grades and courses in associated European universities',
-        'program_1year_documentation_title': 'Documentation Requirements',
-        'program_1year_requirements_passport': 'Essential requirement: Valid passport or European citizenship',
-        'program_1year_feature0': 'Official incorporation into CD Leganés structure',
-        'program_1year_feature1': 'Accommodation and 40 tickets for lunch/dinner + 20 tickets for breakfast/snack',
-        'program_1year_feature2': 'Daily training with the club under professional methodology',
-        'program_1year_feature3': 'Participation in official competitions with the team',
-        'program_1year_feature4': 'Personalized technical-tactical monitoring',
-        'program_1year_feature5': 'Periodic physical evaluations and individual planning',
-        'program_1year_feature6': 'Nutritional and recovery plan adapted to each stage',
-        'program_1year_feature8': 'Coaching and mental preparation sessions',
-        'program_1year_feature9': 'Complete CD Leganés training and competition kit',
-        'program_1year_feature10': 'Access to gym, facilities and club technical staff',
-        'program_1year_feature11': 'Quarterly professional development report',
-        'program_1year_feature12': 'Real opportunity for international projection',
-        'program_1year_feature13': 'Direct contact with European clubs',
-        'program_1year_note': '* Visa processing is not included in the price',
-        'program_1year_note_airfare': '* Airfare not included',
         
         // Why choose us
         'why_us_title': 'Why Choose Elite Futbol Experience',
@@ -665,7 +609,6 @@ const translations = {
         'footer_program_1month': '1 Month Program',
         'footer_program_2months': '2 Months Program',
         'footer_program_3months': '3 Months Program',
-        'footer_program_1year': 'Premium Program',
         'footer_contact_title': 'Contact Us',
         'footer_address': 'Estadio Municipal de Butarque, Leganés, Madrid, Spain',
         'footer_copyright': '© 2026 Elite Futbol Experience. All rights reserved.',
@@ -681,12 +624,11 @@ const translations = {
         
         // Program options
         'program_select': 'Choose a program',
-        'program_select_1week': '1 Week - Master Program (€2,200)',
-        'program_select_15days': '15 Days - Pro Program (€3,400)',
-        'program_select_1month': '1 Month - Elite Program (€5,300)',
-        'program_select_2months': '2 Months - Advanced Program (€8,700)',
-        'program_select_3months': '3 Months - Superior Program (€12,500)',
-        'program_select_1year': '1 Year - Premium Program (€25.500)',
+        'program_select_1week': '1 Week - Master Program (€1,900)',
+        'program_select_15days': '15 Days - Pro Program (€3,100)',
+        'program_select_1month': '1 Month - Elite Program (€4,800)',
+        'program_select_2months': '2 Months - Advanced Program (€7,800)',
+        'program_select_3months': '3 Months - Superior Program (€10,200)',
         
         // Thank you page
         'thanks_page_title': 'Elite Futbol Experience | Thank You for Your Application',
