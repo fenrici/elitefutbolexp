@@ -315,46 +315,208 @@ document.addEventListener('DOMContentLoaded', function() {
     
     createImagesFolder();
     
-    // Menú Hamburguesa
+    // Menú fullscreen (mobile)
     const menuToggle = document.querySelector('.mobile-menu-toggle');
-    const mainNav = document.querySelector('.main-nav');
-    
-    if (menuToggle && mainNav) {
-        menuToggle.addEventListener('click', function() {
-            mainNav.classList.toggle('active');
-            // Cambia el icono según el estado del menú
-            const icon = this.querySelector('i');
-            if (icon.classList.contains('fa-bars')) {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-times');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    if (menuToggle && mobileMenu) {
+        const menuClose = mobileMenu.querySelector('.mobile-menu__close');
+
+        const openMenu = () => {
+            mobileMenu.classList.add('open');
+            mobileMenu.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('menu-open');
+            menuToggle.setAttribute('aria-expanded', 'true');
+        };
+
+        const closeMenu = () => {
+            mobileMenu.classList.remove('open');
+            mobileMenu.setAttribute('aria-hidden', 'true');
+            document.body.classList.remove('menu-open');
+            menuToggle.setAttribute('aria-expanded', 'false');
+        };
+
+        const toggleMenu = () => {
+            if (mobileMenu.classList.contains('open')) {
+                closeMenu();
             } else {
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
+                openMenu();
+            }
+        };
+
+        menuToggle.addEventListener('click', function (e) {
+            e.stopPropagation();
+            toggleMenu();
+        });
+
+        // Accesibilidad: abrir con Enter/Espacio (el toggle es un div con role="button")
+        menuToggle.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                toggleMenu();
             }
         });
-        
-        // Cerrar menú al hacer clic en un enlace
-        const navLinks = mainNav.querySelectorAll('a');
-        navLinks.forEach(link => {
-            link.addEventListener('click', function() {
-                mainNav.classList.remove('active');
-                const icon = menuToggle.querySelector('i');
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
-            });
+
+        if (menuClose) {
+            menuClose.addEventListener('click', closeMenu);
+        }
+
+        // Cerrar al pulsar un enlace de navegación o el CTA (no al cambiar idioma)
+        mobileMenu.querySelectorAll('.mobile-menu__nav a, .mobile-menu__cta').forEach(link => {
+            link.addEventListener('click', closeMenu);
         });
-        
-        // Cerrar menú al hacer clic fuera
-        document.addEventListener('click', function(event) {
-            const isClickInsideMenu = mainNav.contains(event.target);
-            const isClickOnToggle = menuToggle.contains(event.target);
-            
-            if (!isClickInsideMenu && !isClickOnToggle && mainNav.classList.contains('active')) {
-                mainNav.classList.remove('active');
-                const icon = menuToggle.querySelector('i');
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
+
+        // Cerrar con Escape
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && mobileMenu.classList.contains('open')) {
+                closeMenu();
             }
         });
     }
-}); 
+
+    // Toggle de idioma del header (mobile): muestra el idioma activo y alterna al otro
+    const langToggle = document.querySelector('.lang-toggle');
+    if (langToggle) {
+        const currentLang = () => document.documentElement.lang || localStorage.getItem('language') || 'es';
+        const syncLabel = () => { langToggle.textContent = currentLang().toUpperCase(); };
+
+        syncLabel();
+
+        // Mantener la etiqueta sincronizada ante cualquier cambio de idioma
+        new MutationObserver(syncLabel).observe(document.documentElement, {
+            attributes: true,
+            attributeFilter: ['lang'],
+        });
+
+        langToggle.addEventListener('click', function () {
+            const next = currentLang() === 'es' ? 'en' : 'es';
+            if (typeof setLanguage === 'function') {
+                setLanguage(next);
+            }
+        });
+    }
+
+    // Accordion de la sección Programas — solo mobile (≤768px), selección única.
+    initProgramsAccordion();
+});
+
+function initProgramsAccordion() {
+    const cards = Array.from(document.querySelectorAll('#programs .program-card'));
+    if (!cards.length) return;
+
+    const mq = window.matchMedia('(max-width: 768px)');
+
+    cards.forEach(function (card, idx) {
+        const content = card.querySelector('.program-content');
+        if (!content) return;
+        const srcTitle = content.querySelector('h3');
+        const srcPrice = content.querySelector('.price');
+        if (!content.id) content.id = 'program-panel-' + idx;
+
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'program-toggle';
+        btn.setAttribute('aria-expanded', 'false');
+        btn.setAttribute('aria-controls', content.id);
+
+        const textWrap = document.createElement('span');
+        textWrap.className = 'program-toggle__text';
+        const titleSpan = document.createElement('span');
+        titleSpan.className = 'program-toggle__title';
+        const priceSpan = document.createElement('span');
+        priceSpan.className = 'program-toggle__price';
+        textWrap.appendChild(titleSpan);
+        textWrap.appendChild(priceSpan);
+
+        const icon = document.createElement('span');
+        icon.className = 'program-toggle__icon';
+        icon.setAttribute('aria-hidden', 'true');
+
+        btn.appendChild(textWrap);
+        btn.appendChild(icon);
+
+        // Insertar el header justo antes del contenido (tras el featured-tag si existe)
+        card.insertBefore(btn, content);
+
+        card._efx = { btn: btn, content: content, titleSpan: titleSpan, priceSpan: priceSpan, srcTitle: srcTitle, srcPrice: srcPrice };
+        btn.addEventListener('click', function () { toggleCard(card); });
+    });
+
+    function syncLabels() {
+        cards.forEach(function (card) {
+            const d = card._efx;
+            if (!d) return;
+            if (d.srcTitle) d.titleSpan.textContent = d.srcTitle.textContent.trim();
+            if (d.srcPrice) d.priceSpan.textContent = d.srcPrice.textContent.trim();
+        });
+    }
+    syncLabels();
+    new MutationObserver(syncLabels).observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['lang'],
+    });
+
+    function openCard(card) {
+        const d = card._efx;
+        card.classList.add('is-open');
+        d.btn.setAttribute('aria-expanded', 'true');
+        d.content.style.maxHeight = d.content.scrollHeight + 'px';
+
+        // Al terminar la apertura, liberar el límite para no recortar el CTA
+        const onEnd = function (e) {
+            if (e.target !== d.content || e.propertyName !== 'max-height') return;
+            d.content.removeEventListener('transitionend', onEnd);
+            if (card.classList.contains('is-open')) {
+                d.content.style.maxHeight = 'none';
+            }
+        };
+        d.content.addEventListener('transitionend', onEnd);
+    }
+
+    function closeCard(card) {
+        const d = card._efx;
+        // Volver de 'none' a un valor concreto para poder animar el cierre
+        d.content.style.maxHeight = d.content.scrollHeight + 'px';
+        void d.content.offsetHeight; // reflow
+        card.classList.remove('is-open');
+        d.btn.setAttribute('aria-expanded', 'false');
+        d.content.style.maxHeight = '0px';
+    }
+
+    function toggleCard(card) {
+        if (card.classList.contains('is-open')) {
+            closeCard(card);
+            return;
+        }
+        cards.forEach(function (c) {
+            if (c !== card && c.classList.contains('is-open')) closeCard(c);
+        });
+        openCard(card);
+    }
+
+    // Recalcular la altura del panel abierto al redimensionar
+    window.addEventListener('resize', function () {
+        if (!mq.matches) return;
+        cards.forEach(function (card) {
+            if (card.classList.contains('is-open')) {
+                card._efx.content.style.maxHeight = card._efx.content.scrollHeight + 'px';
+            }
+        });
+    });
+
+    // Al salir de mobile, limpiar estados/estilos para no afectar desktop
+    function handleViewportChange() {
+        if (mq.matches) return;
+        cards.forEach(function (card) {
+            card.classList.remove('is-open');
+            card._efx.btn.setAttribute('aria-expanded', 'false');
+            card._efx.content.style.maxHeight = '';
+        });
+    }
+    if (mq.addEventListener) {
+        mq.addEventListener('change', handleViewportChange);
+    } else if (mq.addListener) {
+        mq.addListener(handleViewportChange);
+    }
+    handleViewportChange();
+} 

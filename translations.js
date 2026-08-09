@@ -15,14 +15,21 @@ const translations = {
         'nav_contact': 'Solicitar',
         
         // Hero section
-        'hero_title': 'Entrena en <span class="hero-title-accent">Madrid</span> <span class="hero-title-sep" aria-hidden="true">·</span> Vive el <span class="hero-title-accent">fútbol</span> español',
-        'hero_subtitle': 'Programas de entrenamiento de élite en CD Leganés en Madrid, España',
+        'hero_eyebrow': 'Madrid · C.D. Leganés',
+        'hero_title': 'ENTRENA COMO UN PROFESIONAL EN <span class="hero-accent">ESPAÑA</span>',
+        'hero_subtitle': 'Vive el fútbol español desde dentro.',
+        'hero_desc': 'Programas de 1 semana a 3 meses en Madrid para jugadores de 16 a 23 años.',
+        'hero_meta': '16–23 años · Madrid · <span class="nowrap">1 semana—3 meses</span>',
         'hero_btn_miami_camp': 'Miami Camp 2026',
         'hero_btn_explore': 'Explorar Programas',
         'hero_btn_apply': 'Solicitar Ahora',
         'hero_cta_meeting': 'Solicitar reunión',
+        'hero_cta_experience': 'Conocer la experiencia',
         'hero_cta_programs': 'Ver programas',
         'hero_scroll_indicator': 'Desliza',
+        // Menú mobile
+        'menu_experience': 'La Experiencia',
+        'menu_cta': 'Solicitar evaluación',
         'hero_badge': 'En colaboración con el CD Leganés',
         'hero_chip1': 'Club profesional de España',
         'hero_chip2': 'Entrenadores con licencia UEFA',
@@ -69,7 +76,26 @@ const translations = {
         'program_1month_best_for': 'Ideal para integración en la estructura del club y exposición competitiva.',
         'program_2months_best_for': 'Ideal para desarrollo sostenido y exposición ante ojeadores.',
         'program_3months_best_for': 'Ideal para integración extendida y competición en academia.',
-        
+
+        // La Experiencia (sección editorial)
+        'exp_eyebrow': 'La Experiencia',
+        'exp_intro_title': 'Vive el fútbol <span class="exp-accent">español</span> desde dentro.',
+        'exp_intro_p1': 'Elite Fútbol Experience permite a jugadores internacionales vivir una experiencia de formación en Madrid dentro del entorno del C.D. Leganés.',
+        'exp_intro_p2': 'Durante tu estancia entrenas, te desarrollas y conoces desde dentro la exigencia y metodología de un entorno de fútbol profesional.',
+        'exp_ch1_title': 'Entrena',
+        'exp_ch1_text': 'Entrena dentro de un entorno de fútbol profesional trabajando aspectos técnicos, tácticos y físicos bajo la metodología deportiva del C.D. Leganés.',
+        'exp_ch2_title': 'Compite',
+        'exp_ch2_text': 'Vive la dinámica competitiva del fútbol español y participa en las actividades deportivas disponibles según tu programa, categoría y calendario.',
+        'exp_ch3_title': 'Sé evaluado',
+        'exp_ch3_text': 'Tu rendimiento y evolución son observados durante la experiencia, permitiéndote conocer mejor tu nivel dentro de un entorno de fútbol profesional.',
+        'exp_proj_eyebrow': 'Proyección',
+        'exp_proj_title': 'Descubre hasta dónde puede llegar <span class="exp-accent">tu nivel</span>.',
+        'exp_proj_p1': 'Elite Fútbol Experience te permite entrenar y mostrar tu rendimiento dentro de un entorno profesional.',
+        'exp_proj_p2': 'Los jugadores que destaquen podrán generar oportunidades de seguimiento o proyección deportiva, siempre sujetas a su nivel, rendimiento y valoración deportiva.',
+        'exp_programs_eyebrow': 'Programas',
+        'exp_programs_title': 'Elige cuánto tiempo quieres <span class="exp-accent">vivirlo</span>.',
+        'exp_programs_text': 'Programas desde 1 semana hasta 3 meses, adaptados a tu disponibilidad y objetivos deportivos.',
+
         // Programas
         'programs_title': 'Programas de Entrenamiento',
         'programs_subtitle': 'Entrenamiento de fútbol profesional masculino y femenino inmersivo en uno de los clubes históricos de España',
@@ -151,19 +177,21 @@ const translations = {
         'program_3months_feature11': 'Posible proyección dependiendo del nivel del jugador',
         'program_3months_feature12': 'Kit completo de entrenamiento y partido del CD Leganés',
         
-        // Por qué elegirnos
-        'why_us_title': 'Por Qué Elegir Elite Futbol Experience',
-        'why_us_subtitle': 'Tu puerta de entrada al fútbol profesional en Europa',
-        
-        // Características
-        'feature1_title': 'Entorno de Club Profesional',
-        'feature1_text': 'Entrena en el CD Leganés, club con rica historia en el fútbol español e instalaciones profesionales.',
-        'feature2_title': 'Entrenamiento de Élite',
-        'feature2_text': 'Aprende de entrenadores con licencia UEFA que han desarrollado jugadores profesionales y entienden lo que se necesita para triunfar.',
-        'feature3_title': 'Oportunidad de Exposición',
-        'feature3_text': 'Muestra tu talento frente a ojeadores profesionales con posibles caminos hacia pruebas y contratos.',
-        'feature4_title': 'Desarrollo Basado en Datos',
-        'feature4_text': 'Recibe análisis detallados de rendimiento y evaluaciones físicas para seguir tu mejora.',
+        // Por qué EFX
+        'why_us_eyebrow': 'Por qué EFX',
+        'why_us_title': 'Una experiencia <span class="why-us__accent">completa</span>.',
+        'why_us_lead': 'Elegir EFX es elegir un proceso con entorno profesional, metodología clara y acompañamiento en Madrid.',
+        'why_us_meta': 'Madrid · C.D. Leganés · Jugadores 16–23',
+        'why_us_quote': 'No es un campamento. Es una experiencia estructurada dentro de un entorno de fútbol profesional.',
+        'why_us_cta': 'Solicitar evaluación',
+        'why_us_r1_title': 'Entorno profesional',
+        'why_us_r1_text': 'Experiencia desarrollada dentro del entorno deportivo del C.D. Leganés.',
+        'why_us_r2_title': 'Staff y metodología',
+        'why_us_r2_text': 'Trabajo bajo una metodología de fútbol profesional y entrenadores cualificados.',
+        'why_us_r3_title': 'Acompañamiento',
+        'why_us_r3_text': 'Acompañamiento antes del viaje, durante la estancia en Madrid y a lo largo del programa.',
+        'why_us_r4_title': 'Proyección deportiva',
+        'why_us_r4_text': 'El rendimiento del jugador puede generar oportunidades de seguimiento si su nivel deportivo destaca.',
         
         // Sobre nosotros
         'about_title': 'Quienes Somos',
@@ -354,14 +382,21 @@ const translations = {
         'nav_contact': 'Apply',
         
         // Hero section
-        'hero_title': 'Train in <span class="hero-title-accent">Madrid</span> <span class="hero-title-sep" aria-hidden="true">·</span> Live Spanish <span class="hero-title-accent">football</span>',
-        'hero_subtitle': 'Elite training programs at CD Leganés in Madrid, Spain',
+        'hero_eyebrow': 'Madrid · C.D. Leganés',
+        'hero_title': 'TRAIN LIKE A PROFESSIONAL IN <span class="hero-accent">SPAIN</span>',
+        'hero_subtitle': 'Experience Spanish football from the inside.',
+        'hero_desc': 'Programs from 1 week to 3 months in Madrid for players aged 16 to 23.',
+        'hero_meta': 'Ages 16–23 · Madrid · <span class="nowrap">1 week—3 months</span>',
         'hero_btn_miami_camp': 'Miami Camp 2026',
         'hero_btn_explore': 'Explore Programs',
         'hero_btn_apply': 'Apply Now',
         'hero_cta_meeting': 'Request a meeting',
+        'hero_cta_experience': 'Discover the experience',
         'hero_cta_programs': 'View programs',
         'hero_scroll_indicator': 'Scroll Down',
+        // Mobile menu
+        'menu_experience': 'The Experience',
+        'menu_cta': 'Request evaluation',
         'hero_badge': 'In collaboration with CD Leganés',
         'hero_chip1': 'Professional club in Spain',
         'hero_chip2': 'UEFA-licensed coaches',
@@ -408,7 +443,26 @@ const translations = {
         'program_1month_best_for': 'Best for integration into club structure and competitive exposure.',
         'program_2months_best_for': 'Best for sustained development and scouting exposure.',
         'program_3months_best_for': 'Best for extended integration and academy competition.',
-        
+
+        // The Experience (editorial section)
+        'exp_eyebrow': 'The Experience',
+        'exp_intro_title': 'Live <span class="exp-accent">Spanish</span> football from the inside.',
+        'exp_intro_p1': 'Elite Fútbol Experience lets international players live a training experience in Madrid, inside the environment of C.D. Leganés.',
+        'exp_intro_p2': 'During your stay you train, develop and get to know first-hand the demands and methodology of a professional football environment.',
+        'exp_ch1_title': 'Train',
+        'exp_ch1_text': 'Train inside a professional football environment, working on technical, tactical and physical aspects under the sporting methodology of C.D. Leganés.',
+        'exp_ch2_title': 'Compete',
+        'exp_ch2_text': 'Experience the competitive dynamic of Spanish football and take part in the sporting activities available according to your program, category and calendar.',
+        'exp_ch3_title': 'Be Evaluated',
+        'exp_ch3_text': 'Your performance and progress are observed throughout the experience, helping you better understand your level within a professional football environment.',
+        'exp_proj_eyebrow': 'Projection',
+        'exp_proj_title': 'Discover how far <span class="exp-accent">your level</span> can take you.',
+        'exp_proj_p1': 'Elite Fútbol Experience lets you train and show your performance within a professional environment.',
+        'exp_proj_p2': 'Players who stand out may open up opportunities for follow-up or sporting projection, always subject to their level, performance and sporting assessment.',
+        'exp_programs_eyebrow': 'Programs',
+        'exp_programs_title': 'Choose how long you want to <span class="exp-accent">live it</span>.',
+        'exp_programs_text': 'Programs from 1 week to 3 months, adapted to your availability and sporting goals.',
+
         // Programs
         'programs_title': 'Training Programs',
         'programs_subtitle': 'Immersive professional male and female soccer training at one of Spain\'s historic clubs',
@@ -490,19 +544,21 @@ const translations = {
         'program_3months_feature11': 'Potential pathway depending on the player\'s level',
         'program_3months_feature12': 'Complete CD Leganés training and match kit',
         
-        // Why choose us
-        'why_us_title': 'Why Choose Elite Futbol Experience',
-        'why_us_subtitle': 'Your gateway to professional soccer in Europe',
-        
-        // Features
-        'feature1_title': 'Professional Club Environment',
-        'feature1_text': 'Train at CD Leganés, a club with rich history in Spanish soccer and professional facilities.',
-        'feature2_title': 'Elite Training',
-        'feature2_text': 'Learn from UEFA-licensed coaches who have developed professional players and understand what it takes to succeed.',
-        'feature3_title': 'Exposure Opportunity',
-        'feature3_text': 'Showcase your talent in front of professional scouts with potential pathways to trials and contracts.',
-        'feature4_title': 'Data-Driven Development',
-        'feature4_text': 'Receive detailed performance analysis and physical evaluations to track your improvement.',
+        // Why EFX
+        'why_us_eyebrow': 'Why EFX',
+        'why_us_title': 'A <span class="why-us__accent">complete</span> experience.',
+        'why_us_lead': 'Choosing EFX means choosing a process with a professional environment, clear methodology and support in Madrid.',
+        'why_us_meta': 'Madrid · C.D. Leganés · Players aged 16–23',
+        'why_us_quote': 'This is not a camp. It is a structured experience inside a professional football environment.',
+        'why_us_cta': 'Request evaluation',
+        'why_us_r1_title': 'Professional environment',
+        'why_us_r1_text': 'An experience developed within the sporting environment of C.D. Leganés.',
+        'why_us_r2_title': 'Staff and methodology',
+        'why_us_r2_text': 'Work under a professional football methodology with qualified coaches.',
+        'why_us_r3_title': 'Support throughout',
+        'why_us_r3_text': 'Support before travel, during the stay in Madrid, and throughout the program.',
+        'why_us_r4_title': 'Sporting projection',
+        'why_us_r4_text': 'A player’s performance may open follow-up opportunities when their sporting level stands out.',
         
         // About us
         'about_title': 'About Us',
