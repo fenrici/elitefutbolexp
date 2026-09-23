@@ -40,7 +40,7 @@ const translations = {
         
         // Qué hacemos (What We Do)
         'whatwe_eyebrow': 'Elite Futbol Experience',
-        'whatwe_title': 'Nuestro trabajo',
+        'whatwe_title': 'Nuestro <span class="exp-accent">trabajo</span>',
         'whatwe_subtitle': 'Conectamos jugadores internacionales con entornos de fútbol profesional en España, en colaboración con el <strong>CD Leganés</strong>.',
         'whatwe_bullet1': 'Entrenamientos en entornos de club profesional',
         'whatwe_bullet2': 'Metodología europea y entrenadores con licencia UEFA',
@@ -194,17 +194,17 @@ const translations = {
         'why_us_r4_text': 'El rendimiento del jugador puede generar oportunidades de seguimiento si su nivel deportivo destaca.',
         
         // Sobre nosotros
-        'about_title': 'Quienes Somos',
+        'about_eyebrow': 'Quienes somos',
+        'about_title': 'Quienes <span class="exp-accent">somos</span>',
         'about_subtitle': 'Creando experiencias deportivas únicas para jóvenes futbolistas',
-        'about_p1': 'Somos una empresa con sede en Madrid dedicada a crear experiencias deportivas únicas para jóvenes futbolistas de todo el mundo. Nuestro objetivo es formar, inspirar y proyectar a chicos y chicas apasionados por el fútbol, brindándoles oportunidades de crecimiento dentro y fuera del campo.',
-        'about_p2': 'Con una trayectoria marcada por la excelencia, contamos con años de experiencia trabajando con deportistas internacionales. Hemos recibido jóvenes de Estados Unidos, América del Sur y Oriente, promoviendo un entorno multicultural que enriquece lo deportivo y lo humano.',
-        'about_p3': 'Diseñamos experiencias integrales donde el entrenamiento de alto rendimiento se combina con la formación personal y la inmersión cultural, con un equipo de profesionales con destacada trayectoria internacional.',
-        'about_p5': 'Germán Enrici, Director de Relaciones Internacionales, es el nexo entre los diferentes países y culturas que se unen en nuestros proyectos, asegurando una comunicación cercana y una experiencia global de calidad.',
-        'about_p6': 'Creemos en el poder del deporte para transformar vidas. Trabajamos con dedicación y profesionalismo, construyendo puentes entre talentos jóvenes y el mundo profesional.',
+        'about_p1': 'Desde Madrid, llevamos a jóvenes futbolistas de todo el mundo al corazón del fútbol profesional. Entran al entorno del C.D. Leganés para entrenar, competir y entender desde dentro cómo se vive un club de verdad.',
+        'about_p2': 'Alto rendimiento, metodología europea e inmersión cultural en una sola estancia. Jugadores de distintos países comparten vestuario, campo y una rutina que exige y transforma.',
+        'about_p3': 'Germán Enrici, Director de Relaciones Internacionales, conecta a cada jugador con el día a día del club y mantiene una comunicación clara entre países y culturas.',
         'about_facilities_btn': 'Conoce Nuestras Instalaciones',
         
         // Testimonios
-        'testimonials_title': 'Jugadores que ya iniciaron su camino',
+        'testimonials_eyebrow': 'Jugadores',
+        'testimonials_title': 'Jugadores que ya iniciaron su <span class="exp-accent">camino</span>',
         'testimonials_subtitle': 'Una mirada a su etapa con nosotros en el CD Leganés, con confianza en cada parte del proceso.',
         'testimonial1_text': '"Elite Futbol Experience cambió la trayectoria de mi carrera. Después del programa de un mes, me ofrecieron una prueba con un club de Segunda División B y ahora estoy jugando profesionalmente en España. El entrenamiento y la exposición fueron invaluables."',
         'testimonial1_name': 'Carlos M.',
@@ -214,7 +214,8 @@ const translations = {
         'testimonial3_name': 'Miguel S.',
         
         // Instalaciones
-        'facilities_title': 'Instalaciones de Entrenamiento',
+        'facilities_eyebrow': 'Instalaciones',
+        'facilities_title': 'Instalaciones de <span class="exp-accent">entrenamiento</span>',
         'facilities_subtitle': 'Entorno de clase mundial para un desarrollo óptimo',
         'facility1_caption': 'Estadio Municipal de Butarque',
         'facility2_caption': 'Campos de Entrenamiento Profesionales',
@@ -224,7 +225,8 @@ const translations = {
         'facility6_caption': 'Alojamiento para Jugadores',
         
         // Contacto
-        'contact_title': 'Solicita Tu Programa',
+        'contact_eyebrow': 'Contacto',
+        'contact_title': 'Solicita tu <span class="exp-accent">programa</span>',
         'contact_subtitle': 'Da el primer paso hacia tu carrera profesional',
         'contact_form_name': 'Nombre Completo*',
         'contact_form_dob': 'Fecha de Nacimiento*',
@@ -251,7 +253,8 @@ const translations = {
         'post_payment_page_heading': 'Solicitud de programa',
         'post_payment_form_intro': 'Completa el formulario y nuestro equipo te contactará para los siguientes pasos.',
         'post_payment_back_home': 'Volver a la web',
-        'faq_title': 'Preguntas Frecuentes',
+        'faq_eyebrow': 'Preguntas',
+        'faq_title': 'Preguntas <span class="exp-accent">frecuentes</span>',
         'faq_subtitle': 'Resolvemos tus dudas antes de dar el primer paso',
         'faq_q1': '¿Qué nivel se necesita para participar?',
         'faq_a1': 'No exigimos un nivel mínimo certificado, pero los programas están diseñados para jugadores competitivos que entrenan regularmente y buscan dar un salto en su desarrollo. Durante la evaluación inicial determinamos el programa más adecuado.',
@@ -279,7 +282,8 @@ const translations = {
         'application_step5': 'Plaza y siguiente paso',
         
         // CTA
-        'cta_title': 'Tu Viaje al Fútbol Profesional Comienza Aquí',
+        'cta_eyebrow': 'El siguiente paso',
+        'cta_title': 'Tu viaje al fútbol profesional <span class="exp-accent">comienza aquí</span>',
         'cta_subtitle': 'Plazas limitadas disponibles para cada sesión del programa',
         'cta_btn': 'Solicitar Ahora',
         
@@ -407,7 +411,7 @@ const translations = {
         
         // Qué hacemos (What We Do)
         'whatwe_eyebrow': 'Elite Futbol Experience',
-        'whatwe_title': 'Our work',
+        'whatwe_title': 'Our <span class="exp-accent">work</span>',
         'whatwe_subtitle': 'We connect international players with professional football environments in Spain, in collaboration with <strong>CD Leganés</strong>.',
         'whatwe_bullet1': 'Training in professional club environments',
         'whatwe_bullet2': 'European methodology and UEFA-licensed coaches',
@@ -561,17 +565,17 @@ const translations = {
         'why_us_r4_text': 'A player’s performance may open follow-up opportunities when their sporting level stands out.',
         
         // About us
-        'about_title': 'About Us',
+        'about_eyebrow': 'About us',
+        'about_title': 'About <span class="exp-accent">us</span>',
         'about_subtitle': 'Creating unique sporting experiences for young soccer players',
-        'about_p1': 'We are a Madrid-based company dedicated to creating unique sporting experiences for young soccer players worldwide. Our goal is to train, inspire, and project boys and girls passionate about soccer, providing them with opportunities for growth both on and off the field.',
-        'about_p2': 'With a trajectory marked by excellence, we have years of experience working with international athletes. We have welcomed young people from the United States, South America, and the East, promoting a multicultural environment that enriches both sports and human aspects.',
-        'about_p3': 'We design comprehensive experiences where high-performance training is combined with personal development and cultural immersion, with a team of professionals with outstanding international experience.',
-        'about_p5': 'Germán Enrici, Director of International Relations, is the link between the different countries and cultures that come together in our projects, ensuring close communication and a quality global experience.',
-        'about_p6': 'We believe in the power of sport to transform lives. We work with dedication and professionalism, building bridges between young talents and the professional world.',
+        'about_p1': 'From Madrid, we bring young footballers from around the world into the heart of professional football. They step into the C.D. Leganés environment to train, compete and see from the inside how a real club is lived.',
+        'about_p2': 'High performance, European methodology and cultural immersion in a single stay. Players from different countries share the dressing room, the pitch and a routine that demands and transforms.',
+        'about_p3': 'Germán Enrici, Director of International Relations, connects each player with the day-to-day of the club and keeps communication clear across countries and cultures.',
         'about_facilities_btn': 'Discover Our Facilities',
         
         // Testimonials
-        'testimonials_title': 'Players who have already started their journey',
+        'testimonials_eyebrow': 'Players',
+        'testimonials_title': 'Players who have already started their <span class="exp-accent">journey</span>',
         'testimonials_subtitle': 'A glimpse of their time with us at CD Leganés, with trust in every part of the process.',
         'testimonial1_text': '"Elite Soccer changed the trajectory of my career. After the one-month program, I was offered a trial with a Segunda División B club and am now playing professionally in Spain. The training and exposure were invaluable."',
         'testimonial1_name': 'Carlos M.',
@@ -581,7 +585,8 @@ const translations = {
         'testimonial3_name': 'Miguel S.',
         
         // Facilities
-        'facilities_title': 'Training Facilities',
+        'facilities_eyebrow': 'Facilities',
+        'facilities_title': 'Training <span class="exp-accent">facilities</span>',
         'facilities_subtitle': 'World-class environment for optimal development',
         'facility1_caption': 'Estadio Municipal de Butarque',
         'facility2_caption': 'Professional Training Fields',
@@ -591,7 +596,8 @@ const translations = {
         'facility6_caption': 'Player Accommodation',
         
         // Contact
-        'contact_title': 'Apply for Your Program',
+        'contact_eyebrow': 'Contact',
+        'contact_title': 'Apply for your <span class="exp-accent">program</span>',
         'contact_subtitle': 'Take the first step toward your professional career',
         'contact_form_name': 'Full Name*',
         'contact_form_dob': 'Date of Birth*',
@@ -618,7 +624,8 @@ const translations = {
         'post_payment_page_heading': 'Program application',
         'post_payment_form_intro': 'Complete the form and our team will follow up with next steps.',
         'post_payment_back_home': 'Back to website',
-        'faq_title': 'Frequently Asked Questions',
+        'faq_eyebrow': 'Questions',
+        'faq_title': 'Frequently asked <span class="exp-accent">questions</span>',
         'faq_subtitle': 'We answer your questions before you take the first step',
         'faq_q1': 'What level is required to participate?',
         'faq_a1': 'We do not require a minimum certified level, but the programs are designed for competitive players who train regularly and are looking to take a step forward. During the initial evaluation, we determine the most suitable program.',
@@ -646,7 +653,8 @@ const translations = {
         'application_step5': 'Place & next steps',
         
         // CTA
-        'cta_title': 'Your Journey to Professional Soccer Starts Here',
+        'cta_eyebrow': 'The next step',
+        'cta_title': 'Your journey to professional football <span class="exp-accent">starts here</span>',
         'cta_subtitle': 'Limited spaces available for each program session',
         'cta_btn': 'Apply Now',
         
