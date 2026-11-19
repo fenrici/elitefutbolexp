@@ -318,10 +318,10 @@ const translations = {
         // Opciones de programa
         'program_select': 'Elegir un programa',
         'program_select_1week': '1 Semana - Programa Master (€1.900)',
-        'program_select_15days': '15 Días - Programa Pro (€3.100)',
-        'program_select_1month': '1 Mes - Programa Élite (€4.800)',
-        'program_select_2months': '2 Meses - Programa Avanzado (€7.800)',
-        'program_select_3months': '3 Meses - Programa Superior (€10.200)',
+        'program_select_15days': '15 Días - Programa Pro (€2.900)',
+        'program_select_1month': '1 Mes - Programa Élite (€4.500)',
+        'program_select_2months': '2 Meses - Programa Avanzado (€7.400)',
+        'program_select_3months': '3 Meses - Programa Superior (€9.700)',
         
         // Página de agradecimiento
         'thanks_page_title': 'Elite Futbol Experience | Gracias por tu Solicitud',
@@ -689,10 +689,10 @@ const translations = {
         // Program options
         'program_select': 'Choose a program',
         'program_select_1week': '1 Week - Master Program (€1,900)',
-        'program_select_15days': '15 Days - Pro Program (€3,100)',
-        'program_select_1month': '1 Month - Elite Program (€4,800)',
-        'program_select_2months': '2 Months - Advanced Program (€7,800)',
-        'program_select_3months': '3 Months - Superior Program (€10,200)',
+        'program_select_15days': '15 Days - Pro Program (€2,900)',
+        'program_select_1month': '1 Month - Elite Program (€4,500)',
+        'program_select_2months': '2 Months - Advanced Program (€7,400)',
+        'program_select_3months': '3 Months - Superior Program (€9,700)',
         
         // Thank you page
         'thanks_page_title': 'Elite Futbol Experience | Thank You for Your Application',

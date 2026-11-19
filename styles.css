@@ -5216,7 +5216,8 @@ a.footer-back-link:focus-visible {
 }
 
 .exp-chapter--compite .exp-chapter__media img {
-    object-position: center 22%;
+    height: clamp(420px, 48vw, 580px);
+    object-position: center 48%;
 }
 
 .exp-chapter--evaluado .exp-chapter__media img {
@@ -6178,12 +6179,12 @@ body.menu-open {
     font-weight: 700;
     letter-spacing: 0.01em;
     text-transform: uppercase;
-    color: var(--color-accent-gold, #E4B528);
+    color: #fff;
     padding: 22px 4px;
 }
 
 .faq-question:hover {
-    color: var(--color-accent-gold, #E4B528);
+    color: #fff;
 }
 
 .faq-answer p {
